@@ -350,7 +350,7 @@ RSqoop_backend <- function(updateProgress){
     
     hdfs_report$table_name <- basename(hdfs_report$file)
     
-    backend$hadoop_db$Impala$reconnect()
+    backend$hadoop_db$Impala$connect()
     
     backend$hadoop_db$Impala$query(paste0("USE ", backend$RSqoop$hadoop_dest_db_name), is_DDL = T)
     
@@ -381,11 +381,35 @@ RSqoop_backend <- function(updateProgress){
   }
   
   
+  calculate_table_stat <- function(tables){
+    if(missing(tables)){
+      tables<- check_hadoop_db_for_existing_tables(fast = T)
+      tables <- tables$table_name
+    }
+    
+    if(length(tables)){
+      
+      backend$hadoop_db$Impala$reconnect()
+      
+      backend$hadoop_db$Impala$query(paste0("USE ", backend$RSqoop$hadoop_dest_db_name), is_DDL = T)
+      
+      tables %>% llply(function(tn){
+        paste0("COMPUTE STATS ", tn) %>% backend$hadoop_db$Impala$query(is_DDL = T)
+      }, .progress = "text")
+      
+    }
+    
+    return(invisible(0))
+    
+  }
+  
   backend$hadoop_db$is_hadoop_table_size_in_balance <- is_hadoop_table_size_in_balance
   
   backend$hadoop_db$is_hadoop_table_stat_present <- is_hadoop_table_stat_present
   
   backend$hadoop_db$hadoop_table_info <- hadoop_table_info
+  
+  backend$hadoop_db$calculate_table_stat <- calculate_table_stat
   
   backend$executor$check_hadoop_db_for_existing_tables <- check_hadoop_db_for_existing_tables
   
