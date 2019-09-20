@@ -1,9 +1,9 @@
 
 
-RSqoop_load_configs <- function(){
+RSqoop_load_configs <- function(src_db){
   read_config()
   detect_current_system()
-  load_backend_config()
+  load_backend_config(src_db)
 }
 
 
@@ -82,16 +82,22 @@ RSqoop_backend <- function(updateProgress){
   backend$executor$execute <- executor_backend()
   
   save_plan <- function(eplan){
+    
     dir.create("store/eplan", showWarnings = F, recursive = T)
-    file_name <- paste0(eplan$import_profile$db_name, ".",eplan$import_profile$table_name)
-    file_name <- file.path("store/eplan", file_name)
-    saveRDS(eplan, file_name)
+    
+    if(!is.null(eplan$import_profile$table_name)){
+      file_name <- paste0(eplan$import_profile$db_name, ".",eplan$import_profile$table_name)
+      file_name <- file.path("store/eplan", file_name)
+      saveRDS(eplan, file_name)
+    }
+    
   }
   
   
   backend$executor$save_plan <- save_plan
   
   read_plans <- function(tbl_name = ""){
+    
     files <- list.files("store/eplan", full.names = T, pattern = paste0(".", tbl_name,"$"))
     all_plans <- lapply( files, readRDS)
     names(all_plans) <- basename(files)
@@ -101,6 +107,7 @@ RSqoop_backend <- function(updateProgress){
   backend$executor$read_plans <- read_plans
   
   clean_cached_plans <- function(){
+    
     files <- list.files("store/eplan", full.names = T)
     unlink(files, recursive = T, force = T)
     return(invisible(0))
@@ -449,15 +456,19 @@ RSqoop_backend <- function(updateProgress){
   
   backend$executor$run_plan <- function(ep){
     
-    # delete update info
-    all_plans <- read_plans()
-    
-    this_plan <- all_plans[[ paste0(ep$import_profile$db_name, ".", ep$import_profile$table_name)]]
-    
-    this_plan$import_profile$update_check[["hadoop_db_info"]] <- NULL
-    this_plan$import_profile$update_check[["update_ep"]] <- NULL
-    
-    save_plan(this_plan)
+    try({
+      
+      # delete update info
+      all_plans <- read_plans()
+      
+      this_plan <- all_plans[[ paste0(ep$import_profile$db_name, ".", ep$import_profile$table_name)]]
+      
+      this_plan$import_profile$update_check[["hadoop_db_info"]] <- NULL
+      this_plan$import_profile$update_check[["update_ep"]] <- NULL
+      
+      save_plan(this_plan)
+      
+    }, silent = T)
     
     backend$executor$execute$run(ep$exe_plans)
     return(invisible(0))

@@ -30,13 +30,14 @@ source_db_backend <- function(jdbc_cm){
   # this functon env variable
   all_tables <- NULL
   all_tables_details <- NULL
-  selected_table <- NULL
   
+  selected_table <- NULL
   selected_table_row_num <- NULL
   selected_table_description <- NULL
   selected_table_analysis <- NULL
   selected_table_import_plan <- NULL
   
+  dba_table_stat_access_info <- list()
   
   ###############################################################################################
   ###############################################################################################
@@ -48,7 +49,7 @@ source_db_backend <- function(jdbc_cm){
       x<- xn
       
       if(blow!=0){
-        dig <- (log(x)/log(10)) %>% floor() %>% max()
+        dig <- (log(x+0.0000001)/log(10)) %>% floor() %>% max()
         xl <- x/ 10^dig
         xl <- xl+blow
         x <- floor(xl)*10^dig
@@ -72,7 +73,161 @@ source_db_backend <- function(jdbc_cm){
   ###############################################################################################
   ###############################################################################################
   
+  safe_dba_table_for_views <- function(table_name, odf = data.frame()){
+    out <- odf
+    if(!is.data.frame(out)){
+      out <- data.frame()
+    }
+    if(!nrow(out)){
+      
+      if(selected_table$type=="View"){
+        table_name <- toupper(table_name)
+        loc_tables <- dba_table_stat_access_info$local
+        names(loc_tables) <- toupper(names(loc_tables))
+        if(table_name %in% names(loc_tables)){
+          out <- loc_tables[[table_name]]
+          
+          # generic name change function
+          repl <- function(rep_map, get_cname = F){
+            if(get_cname){
+              
+              out %>% lapply(function(x){
+                x<- toupper(x)
+                cd <- mean(x %in% toupper(rep_map$srch_trm))
+                if(cd>0.5){
+                  T
+                }else{
+                  F
+                }
+              }) %>% unlist() %>% which() %>% names()
+              
+            }else{
+              
+              out %>% lapply(function(x){
+                x<- toupper(x)
+                cd <- mean(x %in% toupper(rep_map$srch_trm))
+                if(cd>0.5){
+                  tibble(x) %>% left_join(rep_map, by = c("x"="srch_trm")) %>% select(repl_trm) %>% .[[1]]
+                }else{
+                  x
+                }
+              }) %>% as_tibble()
+              
+            }
+            
+          }
+          
+          # change DB name
+          out <- repl(tibble(srch_trm = dba_table_stat_access_info$main_db,
+                             repl_trm = dba_table_stat_access_info$st$db))
+          
+          # change table name
+          out <- repl(tibble(srch_trm = dba_table_stat_access_info$main_table,
+                             repl_trm = dba_table_stat_access_info$st$table_name))
+          
+          # get columns name holding column
+          cn <- repl(dba_table_stat_access_info$col_map %>% rename(srch_trm = orig_col, repl_trm = view_col), get_cname = T)
+          
+          # change column name
+          out <- repl(dba_table_stat_access_info$col_map %>% rename(srch_trm = orig_col, repl_trm = view_col))
+          
+          if(length(cn)){
+            out <- out[!is.na(out[[cn]]),]
+          }
+          
+          out <- out %>% lapply(type.convert, as.is = T) %>% as.data.frame()
+          
+        }
+      }
+      
+    }
+    out
+  }
   
+  set_dba_table_stat_access_info <- function(..., reset = F, list_pass){
+    # mention following things (otherwise will auto detect)
+    # main_table
+    # main_db
+    # access_possible
+    # local_path
+    if(reset){
+      dba_table_stat_access_info <<- list()
+    }else{
+      
+      if(!missing(list_pass)){
+        il <- list_pass
+      }else{
+        il <- list(...)
+      }
+      
+      for(nn in names(il)){
+        dba_table_stat_access_info[[nn]] <<- il[[nn]]
+      }
+    }
+    
+    dba_table_stat_access_info$st <<- selected_table
+  }
+  
+  get_dba_table_stat_access_info <- function(){
+    if(selected_table$type=="View"){
+      inf1 <- jdbc_cm$query(paste0("SELECT TEXT from ALL_VIEWS where VIEW_NAME = '",selected_table$table_name,"'"))[[1]]
+      
+      orig_col_order <- inf1 %>% toupper() %>% str_split(" FROM") %>% unlist() %>% .[[1]] %>% str_replace("SELECT ","") %>% str_split(",") %>% unlist() %>% str_trim()
+      dsmp <- jdbc_cm$query(paste0("SELECT * FROM ", selected_table$db, ".",selected_table$table_name, " WHERE ROWNUM <= 5"))
+      
+      
+      col_map <- try(tibble(orig_col = orig_col_order, view_col = dsmp %>% colnames()), silent = T)
+      if(!is.data.frame(col_map)){
+        warning("Failed to map column")
+        col_map <- data.frame()
+      }
+      
+      
+      orig_table <- inf1 %>% toupper() %>% str_split(" FROM ") %>% unlist() %>% .[[2]] %>% str_split(" ") %>% unlist %>% .[[1]]
+      orig_table <- orig_table %>% str_split("\\.") %>% unlist()
+      
+      dba_table_stat_access_info_local <- list()
+      if(length(orig_table)>2|length(orig_table)<=0){
+        warning("Unknown case")
+      }else{
+        if(length(orig_table)==1){
+          dba_table_stat_access_info_local <- list(main_table = orig_table[1],
+                                                   main_db = selected_table$db)
+        }
+        if(length(orig_table)==2){
+          dba_table_stat_access_info_local <- list(main_table = orig_table[2],
+                                                   main_db = orig_table[1])
+        }
+      }
+      
+      inf2 <- jdbc_cm$query(paste0("SELECT * FROM ALL_TAB_COLUMNS WHERE OWNER = '",dba_table_stat_access_info_local$main_db,
+                                   "' AND TABLE_NAME = '",dba_table_stat_access_info_local$main_table,"'"))
+      chk <- F
+      if(is.data.frame(inf2)){
+        if(nrow(inf2)){
+          chk <- T
+        }
+      }
+      
+      dba_table_stat_access_info_local$access_possible <- chk
+      
+      dba_table_stat_access_info_local$col_map <- col_map
+      
+      # check local path for files
+      
+      if(!is.null(dba_table_stat_access_info$local_path)){
+        if(file.exists(dba_table_stat_access_info$local_path)){
+          dba_table_stat_access_info_local$local <- list()
+          fns <- list.files(dba_table_stat_access_info$local_path, full.names = T)
+          dba_table_stat_access_info_local$local <- lapply(fns, read.csv, stringsAsFactors = F)
+          names(dba_table_stat_access_info_local$local) <- basename(fns) %>% str_replace_all(".csv","")
+        }
+      }
+      
+      set_dba_table_stat_access_info(list_pass = dba_table_stat_access_info_local)
+      
+    }
+  }
   
   select_table_id <- function(id_or_name){
     match_id <- NULL
@@ -131,10 +286,19 @@ source_db_backend <- function(jdbc_cm){
     if(length(id)==1){
       
       selected_table <<- all_tables[id,] %>% as.list()
-      selected_table_row_num <<- NULL
-      selected_table_description <<- NULL
-      selected_table_analysis <<- NULL
-      selected_table_import_plan <<- NULL
+      
+      selected_table_row_num <- NULL
+      selected_table_description <- NULL
+      selected_table_analysis <- NULL
+      selected_table_import_plan <- NULL
+      
+      if(!identical(dba_table_stat_access_info$st, selected_table)){
+        dba_table_stat_access_info <- set_dba_table_stat_access_info(reset = T)
+      }
+      
+      if(selected_table$type=="View"){
+        get_dba_table_stat_access_info()
+      }
       
     }
     
@@ -154,6 +318,13 @@ source_db_backend <- function(jdbc_cm){
                                     WHERE OWNER = '", selected_table$db ,"'AND TABLE_NAME='",selected_table$table_name,"'"))
           
           d$IS_NULL_EVER <- (d$NUM_NULLS > 0)
+          
+          if(d %>% filter(!IS_NULL_EVER) %>% nrow() %>% "!"()){
+            d <- safe_dba_table_for_views(table_name = "ALL_TAB_COLUMNS",odf = d %>% filter(!IS_NULL_EVER))
+          }
+          
+          d$IS_NULL_EVER <- (d$NUM_NULLS > 0)
+          
           d$DATA_TYPE_FULL <- d$DATA_TYPE
           
           d$DATA_TYPE <- d$DATA_TYPE %>% str_split("[^a-zA-Z0-9]") %>% lapply("[[", 1) %>% unlist()
@@ -178,6 +349,7 @@ source_db_backend <- function(jdbc_cm){
       # pre-calculated values
       if(is.null(selected_table_row_num)){
         dd <- jdbc_cm$query(paste0("SELECT NUM_ROWS FROM ALL_TABLES WHERE OWNER = '", selected_table$db ,"'AND TABLE_NAME='",selected_table$table_name,"'"))
+        dd <- safe_dba_table_for_views(table_name = "ALL_TABLES", odf = dd)
         tag <-"approximately"
         selected_table_row_num <<- dd[[1]]
       }
@@ -187,13 +359,91 @@ source_db_backend <- function(jdbc_cm){
     return(selected_table_row_num)
   }
   
-  get_sqoop_java_col_map <- function(){
+  get_hadoop_db_type_map <- function(){
+    
+    # ref : https://docs.oracle.com/bigdata/bda45/BDSUG/copy2bda.htm#BIGUG76755
+    # ref : https://docs.oracle.com/cd/E57471_01/bigData.100/extensions_bdd/src/rext_data_type_conversion.html
+    
+    td <- get_selected_table_description()
+    
+    Oracle_to_Hive_Map <- readRDS("source_db_code/Oracle_to_Hive_info")
+    
+    Java_to_Hive_Map <- readRDS("source_db_code/HiveJavaMap")
+    
+    Hive_Impala_Col_Type_Map <- readRDS("source_db_code/Hive_Impala_Col_Type_Map")
+    
+    # numeric has to be handled in different way
+    
+    Oracle_to_Hive_Map <- Oracle_to_Hive_Map[ Oracle_to_Hive_Map$Oracle_Data_Type != "NUMBER",]
+    
+    type_map  <- td[c("COLUMN_NAME","DATA_TYPE","DATA_PRECISION","DATA_SCALE")]
+    
+    type_map <- merge(type_map, Oracle_to_Hive_Map, by.x = "DATA_TYPE", by.y = "Oracle_Data_Type", all.x = T, all.y = F)
+    
+    # special case of number 
+    nums_t <- type_map$DATA_TYPE == "NUMBER"
+    
+    type_map$DATA_SCALE[nums_t][is.na(type_map$DATA_SCALE[nums_t])] <- 0
+    
+    type_map$DATA_PRECISION[nums_t][is.na(type_map$DATA_PRECISION[nums_t])] <- 38
+    
+    scale_zero_t <- type_map$DATA_SCALE == 0
+    
+    scale_nonzero_t <- type_map$DATA_SCALE > 0
+    
+    precision_less_10_t <- type_map$DATA_PRECISION < 10
+    
+    type_map$Hive_Data_Type[ nums_t & scale_zero_t & precision_less_10_t] <- "INT"
+    
+    type_map$Hive_Data_Type[ nums_t & scale_zero_t & !precision_less_10_t] <- "BIGINT"
+    
+    type_map$Hive_Data_Type[ nums_t & scale_nonzero_t ] <- "DECIMAL"
+    
+    if(type_map$Hive_Data_Type %>% is.na() %>% any()){
+      warning("NA data type found. Converting them to string")
+      type_map$Hive_Data_Type[ is.na(type_map$Hive_Data_Type)] <- "STRING"
+    }
+    
+    if(type_map$Hive_Data_Type %>% tolower() %>% str_detect("unsupported") %>% any(na.rm = T)){
+      warning("Unsupported data type found. Converting them to string")
+      type_map$Hive_Data_Type[ type_map$Hive_Data_Type %>% tolower() %>% str_detect("unsupported") ] <- "STRING"
+    }
+    
+    type_map$Hive_Data_Type_Orig <- type_map$Hive_Data_Type
+    
+    time_stamp_t <- type_map$Hive_Data_Type == "TIMESTAMP"
+    
+    if(any(time_stamp_t)){
+      type_map$Hive_Data_Type[time_stamp_t] <- "STRING"
+    }
+    
+    type_map <- type_map %>% merge(Java_to_Hive_Map, by.x = "Hive_Data_Type", by.y = "Hive_Type", all.x = T, all.y = F) 
+    
+    type_map <- type_map %>% merge(Hive_Impala_Col_Type_Map, by.x = "Hive_Data_Type_Orig", by.y = "Hive_Type", all.x = T, all.y = F) 
+    
+    type_map$Impala_Type[is.na(type_map$Impala_Type)] <- "STRING"
+    
+    type_map <- type_map[c("COLUMN_NAME","DATA_TYPE","Hive_Data_Type","Java_Type","Impala_Type")]
+    
+    return(type_map)
+    
+  }
+  
+  get_sqoop_java_col_map <- function(full_specification = F){
     # ref http://www.oracle-dba-online.com/sql/oracle_datatypes_and_create_table.htm
     map_str <- NULL
     
     try({
       td <- get_selected_table_description()
-      map_str <- td$COLUMN_NAME[ td$DATA_TYPE %in% c("DATE","TIMESTAMP") ] %>% paste0("=String", collapse = ",")
+      if(full_specification){
+        dm <- get_hadoop_db_type_map()
+        dm <- dm[!is.na(dm$Java_Type),]
+        if(nrow(dm)){
+          map_str <- dm[c("COLUMN_NAME","Java_Type")] %>% apply(1, paste0, collapse = "=") %>% paste0(collapse = ",")
+        }
+      }else{
+        map_str <- td$COLUMN_NAME[ td$DATA_TYPE %in% c("DATE","TIMESTAMP") ] %>% paste0("=String", collapse = ",")
+      }
     },silent = T)
     
     return(map_str)
@@ -247,6 +497,7 @@ source_db_backend <- function(jdbc_cm){
     return(sql_part)
     
   }
+  
   
   col_load_type <- function(column_name, sample_seq = 3, where = "1=1"){
     
@@ -303,7 +554,9 @@ source_db_backend <- function(jdbc_cm){
     return(nrow(d1) & nrow(d2))
   }
   
-  get_selected_table_analysis <- function(rows_split_lim = 10^6){
+  get_selected_table_analysis <- function(rows_split_lim = 10^6, rows_job_split_lim = 100*rows_split_lim, 
+                                          server_num_connection_limit = 20,
+                                          biased_column_for_split = NULL, biased_column_for_job_split = NULL){
     
     if(is.null(selected_table_analysis)){
       
@@ -316,13 +569,17 @@ source_db_backend <- function(jdbc_cm){
         
         dd <- get_selected_table_description()
         
-        total_num_rows <- get_selected_table_row_count(compute_by_count = F)
+        total_num_rows <- get_selected_table_row_count(compute_by_count = F) 
         
-        rows_job_split_lim <- 100*rows_split_lim
+        if(missing(rows_job_split_lim)){
+          rows_job_split_lim <- 100*rows_split_lim
+        }
+        
         
         TA$rows_split_lim <- rows_split_lim
         TA$rows_job_split_lim <- rows_job_split_lim
         
+        TA$server_num_connection_limit <- server_num_connection_limit
         # split rules
         TA$is_split_required <- floor(total_num_rows/rows_split_lim) > 1
         TA$is_job_split_required <- (floor(total_num_rows/rows_job_split_lim) > 1) & TA$is_split_required
@@ -335,6 +592,9 @@ source_db_backend <- function(jdbc_cm){
                                            FROM ALL_IND_COLUMNS 
                                            WHERE TABLE_OWNER = '", selected_table$db ,"'AND TABLE_NAME='",
                                            selected_table$table_name,"'"))
+        # fix for inaccessible DBA tables and views
+        index_cols <- safe_dba_table_for_views(table_name = "ALL_IND_COLUMNS", odf = index_cols)
+        
         if(is.data.frame(index_cols)){
           TA$index_cols <- index_cols
           index_cols_desc <- dd[ dd$COLUMN_NAME %in% index_cols$COLUMN_NAME, ]
@@ -379,11 +639,21 @@ source_db_backend <- function(jdbc_cm){
         
         
         # Splitability checks
-        dd$NUM_ROWS_in_SPLIT <- total_num_rows/dd$NUM_DISTINCT 
+        
+        if(!TA$is_job_split_required){
+          dd$NUM_ROWS_in_SPLIT <- total_num_rows/dd$NUM_DISTINCT 
+        }else{
+          dd$NUM_ROWS_in_SPLIT <- TA$rows_job_split_lim/dd$NUM_DISTINCT 
+        }
+        
         
         dd <- dd %>% filter(!IS_NULL_EVER)
         
-        dd$is_NUM_ROWS_in_SPLIT_within_LIMIT <- dd$NUM_ROWS_in_SPLIT < rows_split_lim
+        
+        # distinch match score with TA$server_num_connection_limit
+        dd$DM_SCORE <- 1/(abs(dd$NUM_DISTINCT -TA$server_num_connection_limit)+1)
+        
+        dd$is_NUM_ROWS_in_SPLIT_within_LIMIT <- (dd$NUM_ROWS_in_SPLIT < rows_split_lim) | dd$DM_SCORE > max(0.1,quantile(dd$DM_SCORE,3.5/4))
         dd$is_NUM_ROWS_in_SPLIT_within_JOB_SPLIT_LIMIT <- dd$NUM_ROWS_in_SPLIT < rows_job_split_lim
         
         
@@ -416,8 +686,11 @@ source_db_backend <- function(jdbc_cm){
         
         part_info <- jdbc_cm$query(paste0("SELECT * FROM ALL_PART_KEY_COLUMNS WHERE OWNER = '", selected_table$db ,"'AND NAME='",selected_table$table_name,"'"))
         
+        part_info <- safe_dba_table_for_views(table_name = "ALL_PART_KEY_COLUMNS", odf = part_info)
+        
         subpart_info <- jdbc_cm$query(paste0("SELECT * FROM ALL_SUBPART_KEY_COLUMNS WHERE OWNER = '", selected_table$db ,"'AND NAME='",selected_table$table_name,"'"))
         
+        subpart_info <- safe_dba_table_for_views(table_name = "ALL_SUBPART_KEY_COLUMNS", odf = subpart_info)
         
         dd$SCORE_PARTITION <- 0
         dd$SCORE_PARTITION[dd$COLUMN_NAME %in% part_info$COLUMN_NAME] <- 1
@@ -433,80 +706,95 @@ source_db_backend <- function(jdbc_cm){
         
         if(TA$is_partitioned){
           partition_info1 <- jdbc_cm$query(paste0("SELECT * FROM ALL_TAB_PARTITIONS WHERE TABLE_OWNER = '", selected_table$db ,"'AND TABLE_NAME='",selected_table$table_name,"'"))
-          eval_in_db <- function(x){
-            jdbc_cm$query(paste0("SELECT ", x, " FROM DUAL"))[[1]]
-          }
           
-          partition_info1$HIGH_VALUE_EVALUATED <- laply(partition_info1$HIGH_VALUE, eval_in_db)
+          partition_info1 <- safe_dba_table_for_views(table_name = "ALL_TAB_PARTITIONS", odf = partition_info1)
           
-          part_col_info_sql <- sql_parameterized_query_reader("source_db_code/partition_column_summary.sql")
           
-          jdbc_cm$query(readLines("source_db_code/raw_convert_function.sql"), is_DDL = T)
-          
-          partition_info2 <- jdbc_cm$query(part_col_info_sql$build_sql(db= selected_table$db, table = selected_table$table_name))
-          
-          tag <- partition_info2$LOW_VALUE=="-- ::" & partition_info2$DATA_TYPE=="DATE"
-          partition_info2$LOW_VALUE[tag] <- NA
-          partition_info2$HIGH_VALUE[tag] <- NA
-          
-          dpa <- ddply(partition_info2, c("COLUMN_NAME"), function(d){
-            
-            if(d$DATA_TYPE[1]=="NUMBER"){
-              d$LOW_VALUE <-  d$LOW_VALUE %>% as.numeric()
-              d$HIGH_VALUE <-  d$HIGH_VALUE %>% as.numeric()
-              d$diff <- d$HIGH_VALUE- d$LOW_VALUE
-            }else{
-              if(d$DATA_TYPE[1] %in% c('VARCHAR2', 'VARCHAR', 'CHAR')){
-                
-                d$LOW_VALUE_NUM <- suppressWarnings( as.numeric(d$LOW_VALUE))
-                d$HIGH_VALUE_NUM <- suppressWarnings( as.numeric(d$HIGH_VALUE))
-                if(all(((d$LOW_VALUE %>% is.na() ) & (d$LOW_VALUE_NUM %>% is.na() )) == (d$LOW_VALUE %>% is.na()) )){
-                  
-                  d$LOW_VALUE <-  suppressWarnings(d$LOW_VALUE %>% as.numeric())
-                  d$HIGH_VALUE <-  suppressWarnings(d$HIGH_VALUE %>% as.numeric())
-                  d$diff <- d$HIGH_VALUE- d$LOW_VALUE
-                  
-                }else{
-                  d$diff <- paste0(d$LOW_VALUE, " - ",d$HIGH_VALUE)
-                  d$diff[is.na(d$LOW_VALUE)]<-NA
-                  d$diff <- d$diff %>% as.factor() %>% as.numeric()
-                  d$LOW_VALUE <- d$LOW_VALUE %>% as.factor() %>% as.numeric()
-                  d$HIGH_VALUE <- d$HIGH_VALUE %>% as.factor() %>% as.numeric()
-                }
-                
-              }else{
-                
-                if(d$DATA_TYPE[1] == "DATE"){
-                  d$LOW_VALUE <-  d$LOW_VALUE %>% as.Date()
-                  d$HIGH_VALUE <-  d$HIGH_VALUE %>% as.Date()
-                  d$diff <- d$HIGH_VALUE- d$LOW_VALUE
-                  
-                  d$LOW_VALUE <- d$LOW_VALUE %>% as.numeric()
-                  d$HIGH_VALUE <-  d$HIGH_VALUE %>% as.numeric()
-                  d$diff <- d$diff %>% as.numeric()
-                  
-                }
-              }
-              
+          if(selected_table$type!="View"){
+            eval_in_db <- function(x){
+              jdbc_cm$query(paste0("SELECT ", x, " FROM DUAL"))[[1]]
             }
             
             
-            s1 <- mad(d$diff, na.rm = T)/ (median(d$diff, na.rm = T) + exp(-256))
-            s2 <- mad(d$LOW_VALUE, na.rm = T)/ (abs(median(d$LOW_VALUE, na.rm = T)) + exp(-256))+mad(d$HIGH_VALUE, na.rm = T)/ (abs(median(d$HIGH_VALUE, na.rm = T)) + exp(-256))
+            partition_info1$HIGH_VALUE_EVALUATED <- laply(partition_info1$HIGH_VALUE, eval_in_db)
             
-            do <- data.frame(COLUMN_NAME = d$COLUMN_NAME[1], WIDE_VAL = s1, SHIFT_VAL = s2)
-            return(do)
+            part_col_info_sql <- sql_parameterized_query_reader("source_db_code/partition_column_summary.sql")
             
-          })
+            jdbc_cm$query(readLines("source_db_code/raw_convert_function.sql"), is_DDL = T)
+            
+            partition_info2 <- jdbc_cm$query(part_col_info_sql$build_sql(db= selected_table$db, table = selected_table$table_name))
+            
+            tag <- partition_info2$LOW_VALUE=="-- ::" & partition_info2$DATA_TYPE=="DATE"
+            partition_info2$LOW_VALUE[tag] <- NA
+            partition_info2$HIGH_VALUE[tag] <- NA
+            
+            dpa <- ddply(partition_info2, c("COLUMN_NAME"), function(d){
+              
+              if(d$DATA_TYPE[1]=="NUMBER"){
+                d$LOW_VALUE <-  d$LOW_VALUE %>% as.numeric()
+                d$HIGH_VALUE <-  d$HIGH_VALUE %>% as.numeric()
+                d$diff <- d$HIGH_VALUE- d$LOW_VALUE
+              }else{
+                if(d$DATA_TYPE[1] %in% c('VARCHAR2', 'VARCHAR', 'CHAR')){
+                  
+                  d$LOW_VALUE_NUM <- suppressWarnings( as.numeric(d$LOW_VALUE))
+                  d$HIGH_VALUE_NUM <- suppressWarnings( as.numeric(d$HIGH_VALUE))
+                  if(all(((d$LOW_VALUE %>% is.na() ) & (d$LOW_VALUE_NUM %>% is.na() )) == (d$LOW_VALUE %>% is.na()) )){
+                    
+                    d$LOW_VALUE <-  suppressWarnings(d$LOW_VALUE %>% as.numeric())
+                    d$HIGH_VALUE <-  suppressWarnings(d$HIGH_VALUE %>% as.numeric())
+                    d$diff <- d$HIGH_VALUE- d$LOW_VALUE
+                    
+                  }else{
+                    d$diff <- paste0(d$LOW_VALUE, " - ",d$HIGH_VALUE)
+                    d$diff[is.na(d$LOW_VALUE)]<-NA
+                    d$diff <- d$diff %>% as.factor() %>% as.numeric()
+                    d$LOW_VALUE <- d$LOW_VALUE %>% as.factor() %>% as.numeric()
+                    d$HIGH_VALUE <- d$HIGH_VALUE %>% as.factor() %>% as.numeric()
+                  }
+                  
+                }else{
+                  
+                  if(d$DATA_TYPE[1] == "DATE"){
+                    d$LOW_VALUE <-  d$LOW_VALUE %>% as.Date()
+                    d$HIGH_VALUE <-  d$HIGH_VALUE %>% as.Date()
+                    d$diff <- d$HIGH_VALUE- d$LOW_VALUE
+                    
+                    d$LOW_VALUE <- d$LOW_VALUE %>% as.numeric()
+                    d$HIGH_VALUE <-  d$HIGH_VALUE %>% as.numeric()
+                    d$diff <- d$diff %>% as.numeric()
+                    
+                  }
+                }
+                
+              }
+              
+              
+              s1 <- mad(d$diff, na.rm = T)/ (median(d$diff, na.rm = T) + exp(-256))
+              s2 <- mad(d$LOW_VALUE, na.rm = T)/ (abs(median(d$LOW_VALUE, na.rm = T)) + exp(-256))+mad(d$HIGH_VALUE, na.rm = T)/ (abs(median(d$HIGH_VALUE, na.rm = T)) + exp(-256))
+              
+              do <- data.frame(COLUMN_NAME = d$COLUMN_NAME[1], WIDE_VAL = s1, SHIFT_VAL = s2)
+              return(do)
+              
+            })
+            
+            dpa$WIDE_SCORE <- exp(-dpa$WIDE_VAL*10)
+            dpa$SHIFT_SCORE <- exp(-dpa$SHIFT_VAL*10)
+            
+            dpa$IN_PART_SCORE <- (dpa$WIDE_SCORE+dpa$SHIFT_SCORE)/2
+            
+            dd <- merge(dd, dpa[c("COLUMN_NAME","IN_PART_SCORE")])
+            
+          }else{
+            partition_info2 <- data.frame()
+            dpa <- data.frame()
+            dd$IN_PART_SCORE <- 0
+          }
           
-          dpa$WIDE_SCORE <- exp(-dpa$WIDE_VAL*10)
-          dpa$SHIFT_SCORE <- exp(-dpa$SHIFT_VAL*10)
-          
-          dpa$IN_PART_SCORE <- (dpa$WIDE_SCORE+dpa$SHIFT_SCORE)/2
-          
-          dd <- merge(dd, dpa[c("COLUMN_NAME","IN_PART_SCORE")])
           
           TA$partition_info <- list(partitions = part_info, subpartitions = subpart_info, partition_info = partition_info1, partition_wise_column_info = partition_info2, partition_wise_column_score = dpa)
+          
+          
         }else{
           dd$IN_PART_SCORE <- 0
         }
@@ -518,23 +806,38 @@ source_db_backend <- function(jdbc_cm){
         
         dd$DATE_SCORE <- dd$IS_DATE*0.3+dd$IS_DATE*(1*dd$IS_CHUNKED+2*dd$IS_CHRONO)/3*0.7
         
-        dd$SCORE_SPLIT <- dd$is_NUM_ROWS_in_SPLIT_within_LIMIT*(1*dd$SCORE_SPLIT+3*dd$DATE_SCORE+6*dd$IN_PART_SCORE)/10
+        dd$SCORE_SPLIT <- dd$is_NUM_ROWS_in_SPLIT_within_LIMIT*(1*dd$SCORE_SPLIT+3*dd$DATE_SCORE+6*dd$IN_PART_SCORE+2*dd$DM_SCORE)/12
         
         dd$SCORE_JOB_SPLIT <- dd$SCORE_JOB_SPLIT*(1+2*dd$DATE_SCORE+3*dd$SCORE_PARTITION+1*dd$IS_INDEX)/7
         
+        if(length(biased_column_for_job_split)){
+          dd$SCORE_JOB_SPLIT[toupper(dd$COLUMN_NAME) %in% toupper(biased_column_for_job_split)] <- max(max(dd$SCORE_JOB_SPLIT, na.rm = T)+0.0001,0.0001)
+        }
         
-        # getting DBA summary
-        jdbc_cm$query(readLines("source_db_code/raw_convert_function.sql"), is_DDL = T)
-        col_info_sql <- sql_parameterized_query_reader("source_db_code/column_summary.sql")
-        
-        col_info <- jdbc_cm$query(col_info_sql$build_sql(db= selected_table$db, table = selected_table$table_name))
-        
-        col_info <- col_info[c("COLUMN_NAME", setdiff( colnames(col_info), colnames(dd)))]
-        
-        dd <- merge(dd, col_info)
+        if(length(biased_column_for_split)){
+          dd$SCORE_SPLIT[toupper(dd$COLUMN_NAME) %in% toupper(biased_column_for_split)] <- max(max(dd$SCORE_SPLIT, na.rm = T)+0.0001,0.001)
+        }
         
         
-        TA$analysis_data<- dd
+        if(selected_table$type!="View"){
+          # getting DBA summary
+          jdbc_cm$query(readLines("source_db_code/raw_convert_function.sql"), is_DDL = T)
+          col_info_sql <- sql_parameterized_query_reader("source_db_code/column_summary.sql")
+          
+          col_info <- jdbc_cm$query(col_info_sql$build_sql(db= selected_table$db, table = selected_table$table_name))
+          
+          col_info <- col_info[c("COLUMN_NAME", setdiff( colnames(col_info), colnames(dd)))]
+          
+          dd <- merge(dd, col_info)
+        }
+        
+        
+        if(all(c("LOW_VALUE","HIGH_VALUE") %in% colnames(dd))){
+          TA$analysis_data<- dd 
+        }else{
+          TA$analysis_data<- dd %>% mutate(LOW_VALUE = MIN, HIGH_VALUE =  MAX)
+        }
+        
         
         TA$suggested_columns_for_split <- dd$COLUMN_NAME[which.max(dd$SCORE_SPLIT)]
         
@@ -553,7 +856,11 @@ source_db_backend <- function(jdbc_cm){
     
   }
   
-  get_selected_table_import_plan <- function(force_pointable = F){
+  get_selected_table_import_plan <- function(force_pointable = F, 
+                                             manual_range_for_split_key, 
+                                             manual_range_for_job_split_key, 
+                                             manual_strict_ranges_for_job_split_key,
+                                             manual_strict_num_days_for_job_split_key){
     
     if(is.null(  selected_table_import_plan)){
       
@@ -582,9 +889,38 @@ source_db_backend <- function(jdbc_cm){
         if(TA$is_split_required){
           # key_s
           
-          key_s_actual_range <- jdbc_cm$query(paste0("SELECT MIN(",split_key,") as Min, MAX(",split_key,") as Max FROM ",selected_table$db,".",selected_table$table_name), 
-                                              external = T, 
-                                              wait_secs = 2*60)
+          if(missing(manual_range_for_split_key)){
+            
+            if(!TA$is_job_split_required){
+              key_s_actual_range <- jdbc_cm$query(paste0("SELECT MIN(",split_key,") as Min, MAX(",split_key,") as Max FROM ",selected_table$db,".",selected_table$table_name), 
+                                                  external = T, 
+                                                  wait_secs = 2*60)
+              
+            }else{
+              key_s_actual_range <- jdbc_cm$query(paste0("SELECT MIN(",split_key,") as Min, MAX(",split_key,") as Max FROM ",
+                                                         selected_table$db,".",selected_table$table_name, " SAMPLE(0.01)"), 
+                                                  external = T, 
+                                                  wait_secs = 2*60)
+              
+            }
+            
+            if(!is.data.frame(key_s_actual_range)){
+              
+              # try sample
+              
+              key_s_actual_range <- jdbc_cm$query(paste0("SELECT MIN(",split_key,") as Min, MAX(",split_key,") as Max FROM ",
+                                                         selected_table$db,".",selected_table$table_name," SAMPLE(0.001)"), 
+                                                  external = T, 
+                                                  wait_secs = 2*60)
+              
+              
+            }
+            
+          }else{
+            key_s_actual_range <- tibble(MIN = min(manual_range_for_split_key), MAX = max(manual_range_for_split_key))
+          }
+          
+          
           
           c_inf_key_s <- col_load_type(column_name = split_key)
           
@@ -613,7 +949,7 @@ source_db_backend <- function(jdbc_cm){
             }
           }
           
-          range_key_s <- c(min(range_key_s, c_range), max(range_key_s,c_range))
+          range_key_s <- c(min(range_key_s, c_range,na.rm = T), max(range_key_s,c_range,na.rm = T))
           
           
           if(range_key_s %>% is.na() %>% "!"(.) %>% all()){
@@ -687,12 +1023,14 @@ source_db_backend <- function(jdbc_cm){
           
           #may be idea for pointable case : num_map_required <- TA$analysis_data$NUM_ROWS_in_SPLIT[TA$analysis_data$COLUMN_NAME == job_split_key]/TA$rows_split_lim
           
-          num_map_required <- TA$total_num_rows/TA$rows_split_lim
+          num_map_required <- TA$rows_job_split_lim/TA$rows_split_lim
           num_map_required <- round(num_map_required)
           
           IJP$job_style_info$key_s$num_splits <- num_map_required
           
-          if(TA$is_partitioned){
+          IJP$job_style_info$is_same_key_for_js_and_s <- job_split_key == split_key
+          
+          if(TA$is_partitioned & !IJP$job_style_info$is_same_key_for_js_and_s & (TA$analysis_data$DATA_TYPE[TA$analysis_data$COLUMN_NAME == TA$suggested_columns_for_job_split] != "DATE")){
             force_pointable <- T
           }
           
@@ -705,7 +1043,13 @@ source_db_backend <- function(jdbc_cm){
           
           IJP$job_style_info$is_same_key_for_js_and_s <- job_split_key == split_key
           
-          IJP$job_style_info$is_key_s_fixed <- TA$analysis_data$IN_PART_SCORE[TA$analysis_data$COLUMN_NAME == split_key] > 0.7
+          if(selected_table$type == "View"){
+            cat("\nSetting is_key_s_fixed to TRUE as a View is opted for port (limited access) \n")
+            IJP$job_style_info$is_key_s_fixed <- T
+          }else{
+            IJP$job_style_info$is_key_s_fixed <- TA$analysis_data$IN_PART_SCORE[TA$analysis_data$COLUMN_NAME == split_key] > 0.7
+          }
+          
           
           if(IJP$job_style_info$is_pointable & IJP$job_style_info$is_key_s_fixed & !IJP$job_style_info$is_same_key_for_js_and_s){
             IJP$job_style<- "key_js_POINT_key_s_FIXED"
@@ -784,9 +1128,14 @@ source_db_backend <- function(jdbc_cm){
             if(TA$analysis_data$IS_DATE[TA$analysis_data$COLUMN_NAME == job_split_key]){
               info_1 <- info_1 %>% as.Date()
               info_2 <- info_2 %>% as.Date()
+              if(!missing(manual_range_for_job_split_key)){
+                info_3m <- manual_range_for_job_split_key %>% as.Date()
+              }else{
+                info_3m <- NULL
+              }
             }
             
-            info_wide <- range(c(info_1, info_2))
+            info_wide <- range(c(info_1, info_2, info_3m), na.rm = T)
             
             IJP$job_style_info$key_js$range_info <- list(dba_range = info_1, sample_range = info_2)
             
@@ -796,17 +1145,72 @@ source_db_backend <- function(jdbc_cm){
               
               if(TA$analysis_data$IS_DATE[TA$analysis_data$COLUMN_NAME == job_split_key]){
                 
+                # date case
+                
                 rng_prt<- IJP$job_style_info$key_js$range[1] + seq(from = 0 , to = diff( IJP$job_style_info$key_js$range), length.out = IJP$job_style_info$key_js$num_job_required+1)
                 
                 rng_prt <- data.frame(from = rng_prt[-length(rng_prt)], to = rng_prt[-1]-1)
                 
                 rng_prt$to[nrow(rng_prt)] <- IJP$job_style_info$key_js$range[2]
                 
-                IJP$job_style_info$key_js$range_parts <- rng_prt
+                # special case of manual_strict_ranges_for_job_split_key
+                if(!missing(manual_strict_ranges_for_job_split_key)){
+                  dt_gaps <- rng_prt %>% summarise(mean(as.numeric(to-from))) %>% .[[1]] %>% round(0)
+                  dt_gaps <- dt_gaps + 1
+                  
+                  if(!missing(manual_strict_num_days_for_job_split_key)){
+                    dt_gaps <- manual_strict_num_days_for_job_split_key
+                  }
+                  
+                  rng_prt_custom <- manual_strict_ranges_for_job_split_key %>% map_df(~{
+                    dtgn <- diff( range(.x))
+                    
+                    if(dtgn==0){
+                      rp <- min(.x)
+                    }else{
+                      rp <- min(.x) + seq(from = 0 , to = dtgn, length.out = max(as.numeric(round(diff( range(.x))/min(dt_gaps,dtgn)+0.9)), 1))
+                    }
+                    
+                    rp <- unique(rp) %>% sort()
+                    if(length(rp)>1){
+                      data.frame(from = rp[-length(rp)], to = rp[-1])
+                    }else{
+                      if(length(rp)==1){
+                        data.frame(from = rp, to = rp)
+                      }else{
+                        NULL
+                      }
+                    }
+                  })
+                  
+                  
+                  IJP$job_style_info$key_js$range_manually_manipulated <- T
+                  
+                  IJP$job_style_info$key_js$num_job_required <- nrow(rng_prt_custom)
+                  
+                  IJP$job_style_info$key_js$derived_range_parts <- rng_prt
+                  
+                  rng_prt <- rng_prt_custom
+                  
+                  
+                }
                 
-                IJP$job_style_info$key_js$col_str <- col_compare_transform(job_split_key,IJP$job_style_info$key_js$range[1], comp_op = ";") %>% str_split(";") %>% .[[1]] %>% .[1] %>% str_trim()
+                rng_prt_ora <- rng_prt 
                 
-                where_parts <- rng_prt %>% apply(MARGIN = 1, function(x){ paste0(IJP$job_style_info$key_js$col_str, " >= '", x[1],"' AND ", IJP$job_style_info$key_js$col_str, " <= '", x[2],"'")})
+                rng_prt_ora$from <- rng_prt_ora$from %>% lapply(as.Oracle.Date) %>% unlist()
+                rng_prt_ora$to <- rng_prt_ora$to %>% lapply(as.Oracle.Date) %>% unlist()
+                
+                
+                IJP$job_style_info$key_js$range_parts_date <- rng_prt
+                
+                IJP$job_style_info$key_js$range_parts <- rng_prt_ora
+                
+                # Not requires as ORA forms are used
+                # IJP$job_style_info$key_js$col_str <- col_compare_transform(job_split_key,IJP$job_style_info$key_js$range[1], comp_op = ";") %>% str_split(";") %>% .[[1]] %>% .[1] %>% str_trim()
+                
+                IJP$job_style_info$key_js$col_str <- job_split_key
+                
+                where_parts <- rng_prt_ora %>% apply(MARGIN = 1, function(x){ paste0(IJP$job_style_info$key_js$col_str, " >= '", x[1],"' AND ", IJP$job_style_info$key_js$col_str, " <= '", x[2],"'")})
                 
                 IJP$job_style_info$key_js$where_parts <- where_parts
               }
@@ -906,7 +1310,9 @@ source_db_backend <- function(jdbc_cm){
         # common or direct query may not be working on numbers
         import_profile_part$boundary_query <- paste0("SELECT ",min_str," as MIN," ,max_str," as MAX FROM DUAL" )
         
-        if(asNum(max_str)==max_str & asNum(min_str)==min_str){
+        if((asNum(max_str)==max_str & asNum(min_str)==min_str) & 
+           selected_table_analysis$analysis_data$IS_DATE[selected_table_analysis$analysis_data$COLUMN_NAME == 
+                                                         selected_table_import_plan$job_style_info$key_s$name]){
           
           a_date_col <- selected_table_analysis$analysis_data
           
@@ -1005,24 +1411,52 @@ source_db_backend <- function(jdbc_cm){
       import_profile$update_check <- list()
       import_profile$update_check$style <- "UNKNOWN"
       
-      
+      # Sequential update method
       if(selected_table_analysis$suggested_columns_for_split.type %in% c("DATE", "TIMESTAMP")){
         
         import_profile$update_check$style <- "INCREMENTAL"
         
+        # embedding update plan [specific to date]
         hadoop_db_col_name_map <- col_compare_transform(selected_table_import_plan$job_style_info$key_s$name,
-                                                        Sys.Date(), get_hadoop_db_col = T)
+                                                        selected_table_import_plan$job_style_info$key_s$range_main$min, get_hadoop_db_col = T)
         
         import_profile$update_check$hadoop_db_key <- hadoop_db_col_name_map
         import_profile$update_check$hadoop_db_sql <- paste0("SELECT MAX(", hadoop_db_col_name_map,") FROM ",selected_table$table_name )
         import_profile$update_check$hadoop_db_sql_part <- paste0("SELECT MAX(", hadoop_db_col_name_map,") FROM ")
         
-        import_profile$update_check$source_db_key <- col_compare_transform(selected_table_import_plan$job_style_info$key_s$name,
-                                                                           Sys.Date(), comp_op = "<sep>") %>% str_split("<sep>") %>% .[[1]] %>% .[1] %>% str_trim()
+        import_profile$update_check$source_db_key <- selected_table_import_plan$job_style_info$key_s$col_str
+        
+        
+        smpl_frac <- round(max(min(500/selected_table_analysis$total_num_rows*100,99.99),0.000001), 8)
+        
+        import_profile$update_check$source_db_sql <- paste0("SELECT MAX(", import_profile$update_check$source_db_key,") FROM ",selected_table$db,".",selected_table$table_name, " SAMPLE(", smpl_frac, ")" )
+        import_profile$update_check$source_db_sql_part <- paste0("SELECT MAX(", import_profile$update_check$source_db_key,") FROM ",selected_table$db,".",selected_table$table_name , 
+                                                                 " SAMPLE(", smpl_frac, ") ",
+                                                                 " WHERE ", import_profile$update_check$source_db_key)
+        
+        import_profile$update_check$source_db_sql.exact <- paste0("SELECT MAX(", import_profile$update_check$source_db_key,") FROM ",selected_table$db,".",selected_table$table_name )
+        import_profile$update_check$source_db_sql_part.exact <- paste0("SELECT MAX(", import_profile$update_check$source_db_key,") FROM ",selected_table$db,".",selected_table$table_name , 
+                                                                       " WHERE ", import_profile$update_check$source_db_key)
         
         
       }
       
+      # partition update method
+      if(import_profile$job_style == "key_js_POINT_key_s_FIXED"){
+        
+        import_profile$update_check$style <- "PARTITION_UPDATE"
+        
+        hadoop_db_col_name_map <- selected_table_import_plan$job_style_info$key_js$name
+        
+        import_profile$update_check$hadoop_db_key <- hadoop_db_col_name_map
+        import_profile$update_check$hadoop_db_sql <- paste0("SELECT DISTINCT(", hadoop_db_col_name_map,") FROM ",selected_table$table_name )
+        import_profile$update_check$hadoop_db_sql_part <- paste0("SELECT DISTINCT(", hadoop_db_col_name_map,") FROM ")
+        
+        import_profile$update_check$source_db_key <- selected_table_import_plan$job_style_info$key_js$name
+        
+      }
+      
+      # job implementation
       
       if(import_profile$job_style == "PLAIN"){
         
@@ -1052,14 +1486,20 @@ source_db_backend <- function(jdbc_cm){
           is_valid <- T
           
         }else{
+          
           if(import_profile$job_style == "key_js_RANGE_key_s_SAME_RANGE"){
             
             import_profile$job_mode <-"MULTIPLE"
             
             
             prof_part <- lapply(seq_along(selected_table_import_plan$job_style_info$key_js$where_parts), function(i){
-              get_plan_part(range_custom = selected_table_import_plan$job_style_info$key_js$range_parts[i,] %>% t() , 
-                            where_part = selected_table_import_plan$job_style_info$key_js$where_parts[i])
+              if(str_detect(selected_table_import_plan$job_style_info$key_s$col_str,"YYYY-MM-DD")){
+                get_plan_part(range_custom = selected_table_import_plan$job_style_info$key_js$range_parts_date[i,] %>% t() , 
+                              where_part = selected_table_import_plan$job_style_info$key_js$where_parts[i])
+              }else{
+                get_plan_part(range_custom = selected_table_import_plan$job_style_info$key_js$range_parts[i,] %>% t() , 
+                              where_part = selected_table_import_plan$job_style_info$key_js$where_parts[i])
+              }
             })
             
             names(prof_part) <- paste0("jobs_", seq_along(selected_table_import_plan$job_style_info$key_js$where_parts))
@@ -1075,7 +1515,6 @@ source_db_backend <- function(jdbc_cm){
             
             is_valid <- T
           }
-          
           
           if(import_profile$job_style == "key_js_POINT_key_s_FIXED"){
             
@@ -1101,33 +1540,32 @@ source_db_backend <- function(jdbc_cm){
             
             is_valid <- T
           }
+          
+          if(import_profile$job_style == "key_js_RANGE_key_s_FIXED"){
+            
+            import_profile$job_mode <-"MULTIPLE"
+            
+            
+            prof_part <- lapply(seq_along(selected_table_import_plan$job_style_info$key_js$where_parts), function(i){
+              get_plan_part(range_custom = selected_table_import_plan$job_style_info$key_s$range , 
+                            where_part = selected_table_import_plan$job_style_info$key_js$where_parts[i])
+            })
+            
+            names(prof_part) <- paste0("jobs_", seq_along(selected_table_import_plan$job_style_info$key_js$where_parts))
+            
+            import_profile$job_info <- prof_part %>% lapply("[[", "import_profile_part")
+            
+            exe_plans <- prof_part %>% lapply("[[", "exe_plan_part")
+            
+            for( i in seq(1, length(exe_plans)-1)){
+              exe_plans[[i]]$plan <- exe_plans[[i]]$plan["sqoop"]
+              exe_plans[[i]]$is_complete <- NULL
+            }
+            
+            is_valid <- T
+          }
+          
         }
-        
-        # embedding update plan [specific to date]
-        hadoop_db_col_name_map <- col_compare_transform(selected_table_import_plan$job_style_info$key_s$name,
-                                                        selected_table_import_plan$job_style_info$key_s$range_main$min, get_hadoop_db_col = T)
-        
-        import_profile$update_check$hadoop_db_key <- hadoop_db_col_name_map
-        import_profile$update_check$hadoop_db_sql <- paste0("SELECT MAX(", hadoop_db_col_name_map,") FROM ",selected_table$table_name )
-        import_profile$update_check$hadoop_db_sql_part <- paste0("SELECT MAX(", hadoop_db_col_name_map,") FROM ")
-        
-        import_profile$update_check$source_db_key <- selected_table_import_plan$job_style_info$key_s$col_str
-        
-      }
-      
-      
-      if(!is.null(import_profile$update_check$source_db_key)){
-        
-        smpl_frac <- round(max(min(500/selected_table_analysis$total_num_rows*100,99.99),0.000001), 8)
-        
-        import_profile$update_check$source_db_sql <- paste0("SELECT MAX(", import_profile$update_check$source_db_key,") FROM ",selected_table$db,".",selected_table$table_name, " SAMPLE(", smpl_frac, ")" )
-        import_profile$update_check$source_db_sql_part <- paste0("SELECT MAX(", import_profile$update_check$source_db_key,") FROM ",selected_table$db,".",selected_table$table_name , 
-                                                                 " SAMPLE(", smpl_frac, ") ",
-                                                                 " WHERE ", import_profile$update_check$source_db_key)
-        
-        import_profile$update_check$source_db_sql.exact <- paste0("SELECT MAX(", import_profile$update_check$source_db_key,") FROM ",selected_table$db,".",selected_table$table_name )
-        import_profile$update_check$source_db_sql_part.exact <- paste0("SELECT MAX(", import_profile$update_check$source_db_key,") FROM ",selected_table$db,".",selected_table$table_name , 
-                                                                       " WHERE ", import_profile$update_check$source_db_key)
         
       }
       
@@ -1171,7 +1609,7 @@ source_db_backend <- function(jdbc_cm){
           }
         }
         
-       
+        
         
         any_new_rows <- jdbc_cm$query( last_import_profile$update_check$source_db_sql_part %>% 
                                          paste0( " > ", col_compare_transform("" , hdb_out, comp_op = ";") %>% str_split(";") %>% .[[1]] %>% .[2]),
@@ -1286,10 +1724,281 @@ source_db_backend <- function(jdbc_cm){
       
     }
     
+    if(last_import_profile$update_check$style == "PARTITION_UPDATE"){
+      
+      
+      try({
+        
+        src_db_handle$table_catalogue()
+        
+        select_table(last_import_profile$table_name)
+        
+        selected_table_analysis <<- NULL
+        selected_table_import_plan <<- NULL
+        
+        get_selected_table_analysis()
+        
+        get_selected_table_import_plan()
+        
+        is_updated <- F
+        is_upto_date <- F
+        
+        partitions_now <- selected_table_import_plan$job_style_info$key_js$points %>% as.character()
+        partitions_hdb_out <- as.Date(hdb_out) %>% as.character()
+        
+        partitions_new <- setdiff(partitions_now, partitions_hdb_out)
+        
+        if(length(partitions_new)){
+          is_updated <- T
+          is_upto_date <- F
+        }else{
+          is_updated <- F
+          is_upto_date <- T
+        }
+        
+        
+        ep$import_profile <- list()
+        
+        if(is_updated){
+          
+          ep_now <- get_sqoop_import_execution_plan(SEP, server_num_connection_limit = server_num_connection_limit, parallel_select = parallel_select)
+          
+          now_jobs <- ep_now$exe_plans %>% lapply(function(nn){ nn$command() %>% str_detect(as.Oracle.Date(partitions_new))} ) %>% unlist() %>% which()
+          
+          if(length(now_jobs)>0){
+            
+            if(length(now_jobs)==1){
+              ep_now$import_profile$job_style <- "SPLIT"
+            }
+            
+            ep_now$exe_plans <- ep_now$exe_plans[now_jobs] 
+            
+            ep_now$import_profile$job_info <- ep_now$import_profile$job_info[ names(now_jobs)]
+            
+            ep <- ep_now
+            
+            ep$import_profile$update_check$hadoop_db_info <- hdb_out
+            ep$import_profile$update_check$src_db_info <- partitions_new
+          }
+          
+        }else{
+          if(is_upto_date){
+            ep$import_profile$is_upto_date <- T
+          }
+        }
+        
+      },silent = T)
+      
+    }
     
     return(ep)
   }
   
+  # for manual commands
+  get_sqoop_import_execution_plan_manual <- function(SEP,
+                                                     date_key,
+                                                     split_key,
+                                                     date_key_value,
+                                                     split_key_value,
+                                                     quick = T,
+                                                     server_num_connection_limit = Inf, 
+                                                     parallel_select = F, ...){
+    L <- NULL
+    exe_plans <-NULL
+    import_profile <- NULL
+    is_valid <- F
+    get_plan_part <- NULL
+    try({
+      
+      ############################# Custom Function ################################
+      
+      fast_ta <- list()
+      
+      fast_ta$date_key_present <- !missing(date_key)
+      
+      if(fast_ta$date_key_present){
+        if(!quick){
+          
+          fast_ta$sample_date_keys <- jdbc_cm$query(paste0("SELECT  DISTINCT ",date_key," FROM NEFT.NEFT_DATA_VIEW SAMPLE(0.00001)")) %>% 
+            mutate(VALUE_DATE_D = as.Date(VALUE_DATE))
+          
+        }
+        
+        if(missing(date_key_value)){
+          if(!quick){
+            date_key_value <- min(fast_ta$sample_date_keys$VALUE_DATE_D)
+          }else{
+            date_key_value <- Sys.Date()
+          }
+          
+          fast_ta$date_key_where <- paste0(date_key, " = '", as.Oracle.Date(date_key_value),"'")
+        }else{
+          if(is.list(date_key_value)){
+            # multiple range case
+            stop("needs implementation @DevLine")
+          }else{
+            if(length(date_key_value)==2){
+              # simple range case
+              stop("needs implementation @DevLine")
+            }else{
+              if(length(date_key_value)>2){
+                # multiple single date case
+                stop("needs implementation @DevLine")
+              }else{
+                if(length(date_key_value)==1){
+                  # single date case
+                  date_key_value <- date_key_value[1]
+                  fast_ta$date_key_where <- paste0(date_key, " = '", as.Oracle.Date(date_key_value),"'")
+                }else{
+                  stop("needs implementation @DevLine")
+                }
+              }
+            }
+          }
+          
+        }
+        
+      }
+      
+      fast_ta$split_key_present <- !missing(split_key)
+      
+      if(fast_ta$split_key_present){
+        if(!quick){
+          fast_ta$sample_date_key_split_key_map <- 
+            jdbc_cm$query(paste0("SELECT  ",date_key,
+                                 ", MIN(",split_key,
+                                 ") as MIN_SPLIT_KEY, MAX(",split_key,
+                                 ") as MAX_SPLIT_KEY  FROM NEFT.NEFT_DATA_VIEW SAMPLE(0.0001) GROUP BY ",date_key)) 
+          
+          fast_ta$sample_split_key_range <- 
+            jdbc_cm$query(paste0("SELECT  MIN(",split_key,
+                                 ") as MIN_SPLIT_KEY, MAX(",split_key,
+                                 ") as MAX_SPLIT_KEY  FROM NEFT.NEFT_DATA_VIEW SAMPLE(0.0001) "))
+        }
+        
+        if(missing(split_key_value)){
+          if(!quick){
+            split_key_value <- fast_ta$sample_split_key_range %>% rename(min = MIN_SPLIT_KEY, max = MAX_SPLIT_KEY) %>% as.list()
+          }else{
+            split_key_value <- c(NA,NA)
+          }
+          
+        }
+        
+        fast_ta$split_key_range <- split_key_value
+        
+      }
+      
+      
+      
+      # import_profile is required to be defined
+      get_plan_part <- function( range_custom , where_part){
+        
+        
+        if(fast_ta$split_key_present){
+          
+          import_profile_part <- list()
+          
+          import_profile_part$split_by <- split_key
+          
+          if(missing(range_custom)){
+            range_custom <- fast_ta$split_key_range
+          }
+          
+          if(!is.list(range_custom)){
+            range_custom <- list(min = min(range_custom), max = max(range_custom))
+          }
+          
+          import_profile_part$range <- range_custom
+          
+          import_profile_part$num_mappers <- server_num_connection_limit
+          
+          min_str <- col_compare_transform(split_key,import_profile_part$range$min, comp_op = ";") %>% str_split(";") %>% .[[1]] %>% .[2] %>% str_trim()
+          max_str <- col_compare_transform(split_key,import_profile_part$range$max, comp_op = ";") %>% str_split(";") %>% .[[1]] %>% .[2] %>% str_trim()
+          
+          # common or direct query may not be working on numbers
+          import_profile_part$boundary_query <- paste0("SELECT ",min_str," as MIN," ,max_str," as MAX FROM DUAL" )
+          
+          
+          if(missing(where_part)){
+            exe_plan <- SEP(db_name = import_profile$db_name,
+                            table_name = import_profile$table_name,
+                            split_by = import_profile_part$split_by,
+                            boundary_query = import_profile_part$boundary_query,
+                            num_mappers = import_profile_part$num_mappers,
+                            map_column_java = import_profile$sqoop_java_col_map,
+                            query_select_tag = ifelse(import_profile$is_parallel_select & parallel_select, "SELECT /*+ PARALLEL */ ", "SELECT "),
+                            ...)
+            
+          }else{
+            exe_plan <- SEP(db_name = import_profile$db_name,
+                            table_name = import_profile$table_name,
+                            split_by = import_profile_part$split_by,
+                            boundary_query = import_profile_part$boundary_query,
+                            num_mappers = import_profile_part$num_mappers,
+                            map_column_java = import_profile$sqoop_java_col_map,
+                            query_select_tag = ifelse(import_profile$is_parallel_select & parallel_select, "SELECT /*+ PARALLEL */ ", "SELECT "), 
+                            where = where_part,
+                            ...)
+            
+          }
+          
+          L <- list(import_profile_part = import_profile_part, exe_plan_part = exe_plan)
+          
+        }else{
+          
+          import_profile_part <- list()
+          
+          
+          
+          if(missing(where_part)){
+            exe_plan <- SEP(db_name = import_profile$db_name,
+                            table_name = import_profile$table_name,
+                            num_mappers = 1,
+                            map_column_java = import_profile$sqoop_java_col_map,
+                            query_select_tag = ifelse(import_profile$is_parallel_select & parallel_select, "SELECT /*+ PARALLEL */ ", "SELECT "),
+                            ...)
+            
+          }else{
+            exe_plan <- SEP(db_name = import_profile$db_name,
+                            table_name = import_profile$table_name,
+                            num_mappers = 1,
+                            map_column_java = import_profile$sqoop_java_col_map,
+                            query_select_tag = ifelse(import_profile$is_parallel_select & parallel_select, "SELECT /*+ PARALLEL */ ", "SELECT "), 
+                            where = where_part,
+                            ...)
+            
+          }
+          
+          L <- list(import_profile_part = import_profile_part, exe_plan_part = exe_plan)
+          
+        }
+        
+        L
+      }
+      
+      import_profile$db_name <- selected_table$db
+      import_profile$table_name <- selected_table$table_name
+      
+      import_profile$analysis_info <- list(TA = fast_ta, JIP = NULL)
+      
+      import_profile$job_style <- "MANUAL"
+      
+      import_profile$sqoop_java_col_map  <- get_sqoop_java_col_map()
+      
+      import_profile$is_parallel_select <- parallel_select
+      
+      # embedding update plan [basic]
+      
+      import_profile$update_check <- list()
+      import_profile$update_check$style <- "UNKNOWN"
+      
+      # job implementation
+      
+    }, silent = T)
+    L <- list(is_valid = is_valid, import_profile = import_profile, exe_plans = exe_plans, ep_gen = get_plan_part)
+    return(invisible(L))
+  }
   
   # may not be required
   get_column_info_on_selected_table <- function(column_name, fast_approx_for_date = T, business_days = 6, force_refetch = F){
@@ -1443,19 +2152,31 @@ source_db_backend <- function(jdbc_cm){
   ###############################################################################################
   
   
-  src_db_handle$table_catalogue <- function(reset = F){
+  src_db_handle$table_catalogue <- function(reset = F, include_views = T){
     # ref https://www.oraclerecipes.com/sql/get-list-of-all-available-tables-in-oracle-database/
     if(is.null(all_tables) | reset){
       
       d <- jdbc_cm$query("SELECT owner, table_name FROM dba_tables")
       
       if(!is.data.frame(d)){
-        d <- jdbc_cm$query("SELECT owner, table_name FROM all_tables")
+        d <- jdbc_cm$query("SELECT owner, table_name FROM ALL_TABLES")
       }
       
       if(!is.data.frame(d)){
         d <- jdbc_cm$query("SELECT table_name FROM user_tables")
       }
+      
+      if(include_views){
+        dp <- jdbc_cm$query("SELECT owner, view_name as table_name FROM ALL_VIEWS")
+        if(is.data.frame(dp) & is.data.frame(d)){
+          dp$type <- "View"
+          if(is.null(d$type)){
+            d$type <- "Table"
+          }
+          d <- d %>% bind_rows(dp) %>% unique()
+        }
+      }
+      
       
       if(is.data.frame(d)){
         
@@ -1469,7 +2190,8 @@ source_db_backend <- function(jdbc_cm){
           d$OWNER <- "current_user"
         }
         
-        colnames(d) <- c("db","table_name")
+        colnames(d) <- c("db","table_name", "type")[seq(length(colnames(d)))]
+        
         
         all_tables <<- d
       }
@@ -1514,64 +2236,7 @@ source_db_backend <- function(jdbc_cm){
   
   src_db_handle$get_selected_table_description <- get_selected_table_description
   
-  src_db_handle$get_hadoop_db_type_map <- function(){
-    
-    # ref : https://docs.oracle.com/bigdata/bda45/BDSUG/copy2bda.htm#BIGUG76755
-    # ref : https://docs.oracle.com/cd/E57471_01/bigData.100/extensions_bdd/src/rext_data_type_conversion.html
-    
-    td <- get_selected_table_description()
-    
-    Oracle_to_Hive_Map <- readRDS("source_db_code/Oracle_to_Hive_info")
-    
-    # numeric has to be handled in different way
-    
-    Oracle_to_Hive_Map <- Oracle_to_Hive_Map[ Oracle_to_Hive_Map$Oracle_Data_Type != "NUMBER",]
-    
-    type_map  <- td[c("COLUMN_NAME","DATA_TYPE","DATA_PRECISION","DATA_SCALE")]
-    
-    type_map <- merge(type_map, Oracle_to_Hive_Map, by.x = "DATA_TYPE", by.y = "Oracle_Data_Type", all.x = T, all.y = F)
-    
-    # special case of number 
-    nums_t <- type_map$DATA_TYPE == "NUMBER"
-    
-    type_map$DATA_SCALE[nums_t][is.na(type_map$DATA_SCALE[nums_t])] <- 0
-    
-    type_map$DATA_PRECISION[nums_t][is.na(type_map$DATA_PRECISION[nums_t])] <- 38
-    
-    scale_zero_t <- type_map$DATA_SCALE == 0
-    
-    scale_nonzero_t <- type_map$DATA_SCALE > 0
-    
-    precision_less_10_t <- type_map$DATA_PRECISION < 10
-    
-    type_map$Hive_Data_Type[ nums_t & scale_zero_t & precision_less_10_t] <- "INT"
-    
-    type_map$Hive_Data_Type[ nums_t & scale_zero_t & !precision_less_10_t] <- "BIGINT"
-    
-    type_map$Hive_Data_Type[ nums_t & scale_nonzero_t ] <- "DECIMAL"
-    
-    if(type_map$Hive_Data_Type %>% is.na() %>% any()){
-      warning("NA data type found. Converting them to string")
-      type_map$Hive_Data_Type[ is.na(type_map$Hive_Data_Type)] <- "STRING"
-    }
-    
-    if(type_map$Hive_Data_Type %>% tolower() %>% str_detect("unsupported") %>% any(na.rm = T)){
-      warning("Unsupported data type found. Converting them to string")
-      type_map$Hive_Data_Type[ type_map$Hive_Data_Type %>% tolower() %>% str_detect("unsupported") ] <- "STRING"
-    }
-    
-    time_stamp_t <- type_map$Hive_Data_Type == "TIMESTAMP"
-    
-    if(any(time_stamp_t)){
-      cat("\nTIME_STAMP found but will be converted to string (module required to be implemented for TIME_STAMP conversion)\n")
-      type_map$Hive_Data_Type[time_stamp_t] <- "STRING"
-    }
-    
-    type_map <- type_map[c("COLUMN_NAME","DATA_TYPE","Hive_Data_Type")]
-    
-    return(type_map)
-    
-  }
+  src_db_handle$get_hadoop_db_type_map <- get_hadoop_db_type_map
   
   src_db_handle$get_selected_table_row_count <- get_selected_table_row_count
   
@@ -1594,7 +2259,15 @@ source_db_backend <- function(jdbc_cm){
   # may be this function can be kept outside the scope of this handle
   src_db_handle$get_sqoop_import_execution_plan <- get_sqoop_import_execution_plan
   
+  src_db_handle$get_sqoop_import_execution_plan_manual <- get_sqoop_import_execution_plan_manual
+  
   src_db_handle$get_sqoop_import_execution_plan_update <- get_sqoop_import_execution_plan_update
+  
+  src_db_handle$set_dba_table_stat_access_info <- set_dba_table_stat_access_info
+  
+  src_db_handle$show_dba_table_stat_access_info <- function(){
+    dba_table_stat_access_info
+  }
   
   ###############################################################################################
   

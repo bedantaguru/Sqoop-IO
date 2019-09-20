@@ -1,0 +1,6236 @@
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-02-13 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Password for hive@MYREALM.COM: 
+kinit: Password incorrect while getting initial credentials
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-02-14 
+
+Determining diferences
+
+Found dates : 2019-01-31,2019-02-01,2019-02-02,2019-02-04,2019-02-05,2019-02-06,2019-02-07,2019-02-08,2019-02-11,2019-02-12
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-02-14 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Password for hive@MYREALM.COM: 
+kinit: Password incorrect while getting initial credentials
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-02-15 
+
+Determining diferences
+
+Found dates : 2019-02-13,2019-02-14
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-02-15 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Password for hive@MYREALM.COM: 
+kinit: Password incorrect while getting initial credentials
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-02-15 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-02-15 23:03:16 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-02-16 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Password for hive@MYREALM.COM: 
+kinit: Password incorrect while getting initial credentials
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-02-15 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-02-16 23:06:21 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-02-17 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Password for hive@MYREALM.COM: 
+kinit: Password incorrect while getting initial credentials
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-02-16 
+
+Determining diferences
+
+Found dates : 2019-02-15
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-02-18 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-02-16 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-02-18 23:03:09 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-02-19 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-02-19 
+
+Determining diferences
+
+Found dates : 2019-02-16,2019-02-18
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-02-20 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-02-19 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-02-20 23:06:11 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-02-21 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-02-20 
+
+Determining diferences
+
+Found dates : 2019-02-19
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-02-22 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-02-22 
+
+Determining diferences
+
+Found dates : 2019-02-20,2019-02-21
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-02-23 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-02-22 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-02-23 23:03:07 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-02-24 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-02-22 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-02-24 23:03:13 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-02-25 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-02-22 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-02-25 23:03:19 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-02-26 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-02-25 
+
+Determining diferences
+
+Found dates : 2019-02-22
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-02-27 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-02-26 
+
+Determining diferences
+
+Found dates : 2019-02-25
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-02-28 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-01 
+
+Determining diferences
+
+Found dates : 2019-02-26,2019-02-27
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+19/03/01 22:59:01 ERROR security.UserGroupInformation: TGT is expired. Aborting renew thread for hive@MYREALM.COM.
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-01 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-01 
+
+Determining diferences
+common_incoming:
+[1] "2019-02-26" "2019-02-27"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-02 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-02 
+
+Determining diferences
+common_incoming:
+[1] "2019-02-26" "2019-02-27"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-03 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-02 
+
+Determining diferences
+common_incoming:
+[1] "2019-02-26" "2019-02-27"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-04 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-02 
+
+Determining diferences
+common_incoming:
+[1] "2019-02-26" "2019-02-27"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-05 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-04 
+
+Determining diferences
+common_incoming:
+[1] "2019-02-26" "2019-02-27"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-06 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-06 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-03-06 23:03:21 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-07 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-08 
+
+Determining diferences
+
+Found dates : 2019-02-23,2019-03-06,2019-03-07
+
+Submitting new Sqoop job 1th of 2 . Rest number of jobs:2
+
+Using RUN
+
+Submitting new Sqoop job 2th of 2 . Rest number of jobs:1
+
+Using NEXT PHASE
+
+Doing rest part of the plan.
+
+Using CLEAN UP
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+In addition: Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/imported_eplan/2019_03_07_time_23_08_24_proc_26679', probable reason 'No such file or directory'
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-08 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-11 
+
+Determining diferences
+
+Found dates : 2019-03-08
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-09 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-12 
+
+Determining diferences
+
+Found dates : 2019-03-11
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-10 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-12 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-03-10 23:06:51 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-11 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-12 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-03-11 23:06:32 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-12 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-13 
+
+Determining diferences
+
+Found dates : 2019-03-12
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-13 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-13 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-03-13 23:03:20 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-14 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-14 
+
+Determining diferences
+
+Found dates : 2019-03-13
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-15 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-14 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-03-15 23:03:30 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-16 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-15 
+
+Determining diferences
+
+Found dates : 2019-03-14
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-17 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-16 
+
+Determining diferences
+
+Found dates : 2019-03-15
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-18 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-16 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-03-18 23:03:13 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-19 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-20 
+
+Determining diferences
+
+Found dates : 2019-03-16,2019-03-18,2019-03-19
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-20 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-20 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-03-20 23:07:10 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-21 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-20 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-03-21 23:03:39 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-22 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-21 
+
+Determining diferences
+
+Found dates : 2019-03-20
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-23 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-24 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-22 
+
+Determining diferences
+
+Found dates : 2019-03-21
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-25 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-22 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-03-25 23:06:17 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-26 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-26 
+
+Determining diferences
+
+Found dates : 2019-03-22,2019-03-25
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-27 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-28 
+
+Determining diferences
+
+Found dates : 2019-03-26
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-28 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-28 
+
+Determining diferences
+
+Found dates : 2019-03-27
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-29 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-28 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-03-29 23:03:55 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-30 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-30 
+
+Determining diferences
+
+Found dates : 2019-03-28,2019-03-29
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-31 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-30 
+
+Determining diferences
+common_incoming:
+[1] "2019-03-28" "2019-03-29"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-01 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-02 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-03 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-04 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-05 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-06 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-07 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-08 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-09 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-10 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-11 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-12 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-13 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-14 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-15 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-16 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-17 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-18 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-19 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-20 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-21 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-22 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-23 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-24 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-25 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-26 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-27 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-28 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-29 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-30 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-01 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-02 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-03 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-04 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-05 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-06 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-07 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-08 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-09 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-10 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-11 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-12 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-13 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-14 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-15 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-16 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-17 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-18 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-19 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-20 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-21 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-22 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-23 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-24 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-25 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-26 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-27 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-28 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-29 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-30 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-31 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-01 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-02 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-03 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-04 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-05 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-06 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-07 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-08 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-09 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-10 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-11 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-12 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-13 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-14 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-17 
+
+Determining diferences
+common_incoming:
+[1] "2019-03-28" "2019-03-29"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-15 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-17 
+
+Determining diferences
+common_incoming:
+[1] "2019-03-28" "2019-03-29"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-16 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-17 
+
+Determining diferences
+common_incoming:
+[1] "2019-03-28" "2019-03-29"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-17 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-17 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-06-17 23:08:05 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-18 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-18 
+
+Determining diferences
+
+Found dates : 2019-06-17
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-19 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-18 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-06-19 23:03:43 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-20 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-19 
+
+Determining diferences
+
+Found dates : 2019-06-18
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-21 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-20 
+
+Determining diferences
+
+Found dates : 2019-06-19
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-22 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28001: the password has expired
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-23 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28001: the password has expired
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-24 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28001: the password has expired
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-25 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-25 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-06-25 23:06:38 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-26 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-26 
+
+Determining diferences
+
+Found dates : 2019-06-25
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-27 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-26 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-06-27 23:03:49 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-28 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-27 
+
+Determining diferences
+
+Found dates : 2019-06-26
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-29 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-28 
+
+Determining diferences
+
+Found dates : 2019-06-27
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-30 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-29 
+
+Determining diferences
+
+Found dates : 2019-06-28
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-01 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-29 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-07-01 23:03:36 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-02 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-07-03 
+
+Determining diferences
+
+Found dates : 2019-06-29,2019-07-01
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-03 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-07-03 
+
+Determining diferences
+
+Found dates : 2019-07-02
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-04 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-07-05 
+
+Determining diferences
+
+Found dates : 2019-07-03
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-05 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-07-05 
+
+Determining diferences
+
+Found dates : 2019-07-04
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-06 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-07-05 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-07-06 23:03:24 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-07 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-07-06 
+
+Determining diferences
+
+Found dates : 2019-07-05
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-08 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-07-06 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-07-08 23:03:47 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-09 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-07-06 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-07-09 23:03:24 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-10 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-07-11 
+
+Determining diferences
+
+Found dates : 2019-07-06,2019-07-08,2019-07-09,2019-07-10
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-11 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-07-11 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-07-11 23:04:02 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-12 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-07-12 
+
+Determining diferences
+
+Found dates : 2019-07-11
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-13 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-07-12 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-07-13 23:07:41 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-14 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-07-12 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-07-14 23:07:27 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-15 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-07-12 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-07-15 23:04:13 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-16 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-07-15 
+
+Determining diferences
+
+Found dates : 2019-07-12
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-17 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-07-16 
+
+Determining diferences
+
+Found dates : 2019-07-15
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-18 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-07-17 
+
+Determining diferences
+
+Found dates : 2019-07-16
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-19 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-07-18 
+
+Determining diferences
+
+Found dates : 2019-07-17
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-20 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-07-20 
+
+Determining diferences
+
+Found dates : 2019-07-18,2019-07-19
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-21 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-07-20 
+
+Determining diferences
+common_incoming:
+[1] "2019-07-18" "2019-07-19"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-22 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-07-20 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-07-22 23:04:29 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-23 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-07-22 
+
+Determining diferences
+
+Found dates : 2019-07-20
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-24 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-07-25 
+
+Determining diferences
+
+Found dates : 2019-07-22,2019-07-23
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-25 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-07-26 
+
+Determining diferences
+
+Found dates : 2019-07-24,2019-07-25
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-26 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-07-26 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-07-26 23:04:18 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-27 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-28 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-07-26 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-07-28 23:07:07 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-29 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-07-26 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-07-29 23:04:53 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-30 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-07-29 
+
+Determining diferences
+
+Found dates : 2019-07-26
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-31 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-01 
+
+Determining diferences
+common_incoming:
+[1] "2019-07-26" "2019-07-29" "2019-07-30"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-01 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-01 
+
+Determining diferences
+common_incoming:
+[1] "2019-07-26" "2019-07-29" "2019-07-30"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-02 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-02 
+
+Determining diferences
+common_incoming:
+[1] "2019-07-26" "2019-07-29" "2019-07-30"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-03 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-02 
+
+Determining diferences
+common_incoming:
+[1] "2019-07-26" "2019-07-29" "2019-07-30"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-04 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-03 
+
+Determining diferences
+common_incoming:
+[1] "2019-07-26" "2019-07-29" "2019-07-30"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-05 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-03 
+
+Determining diferences
+common_incoming:
+[1] "2019-07-26" "2019-07-29" "2019-07-30"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-06 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-05 
+
+Determining diferences
+common_incoming:
+[1] "2019-07-26" "2019-07-29" "2019-07-30" "2019-07-31" "2019-08-01"
+[6] "2019-08-02" "2019-08-03"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-07 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-06 
+
+Determining diferences
+common_incoming:
+[1] "2019-07-26" "2019-07-29" "2019-07-30" "2019-07-31" "2019-08-01"
+[6] "2019-08-02" "2019-08-03"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-08 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-09 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-08-08 23:03:31 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-09 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-13 
+
+Determining diferences
+
+Found dates : 2019-08-08,2019-08-09
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+19/08/10 22:59:02 ERROR security.UserGroupInformation: TGT is expired. Aborting renew thread for hive@MYREALM.COM.
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-10 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-13 
+
+Determining diferences
+common_incoming:
+[1] "2019-08-08" "2019-08-09"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-11 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-13 
+
+Determining diferences
+common_incoming:
+[1] "2019-08-08" "2019-08-09"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-12 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-13 
+
+Determining diferences
+common_incoming:
+[1] "2019-08-08" "2019-08-09"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-13 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-13 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-08-13 23:03:56 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-14 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-13 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-08-14 23:09:11 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-15 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-19 
+
+Determining diferences
+
+Found dates : 2019-08-13,2019-08-14,2019-08-16
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-16 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-19 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-08-16 23:04:22 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-17 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-19 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-08-17 23:03:53 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-18 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-19 
+
+Determining diferences
+
+Found dates : 2019-08-17
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-19 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-19 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-08-19 23:04:01 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-20 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-19 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-08-20 23:06:56 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-21 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-20 
+
+Determining diferences
+
+Found dates : 2019-08-19
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-22 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-21 
+
+Determining diferences
+
+Found dates : 2019-08-20
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-23 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-23 
+
+Determining diferences
+
+Found dates : 2019-08-21,2019-08-22
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-24 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-23 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-08-24 23:03:27 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-25 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-23 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-08-25 23:06:02 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-26 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-23 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-08-26 23:06:19 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-27 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-26 
+
+Determining diferences
+
+Found dates : 2019-08-23
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-28 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-27 
+
+Determining diferences
+
+Found dates : 2019-08-26
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-29 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-28 
+
+Determining diferences
+
+Found dates : 2019-08-27
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-30 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-29 
+
+Determining diferences
+
+Found dates : 2019-08-28
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-31 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-31 
+
+Determining diferences
+
+Found dates : 2019-08-29,2019-08-30
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-09-01 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-09-03 
+
+Determining diferences
+
+Found dates : 2019-08-31
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-09-02 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-09-03 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-09-02 23:07:37 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-09-03 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-09-03 
+
+Determining diferences
+
+Found dates : 2019-09-02
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-09-04 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-09-03 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-09-04 23:03:40 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-09-05 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-09-04 
+
+Determining diferences
+
+Found dates : 2019-09-03
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-09-06 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-09-06 
+
+Determining diferences
+
+Found dates : 2019-09-04,2019-09-05
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-09-07 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-09-11 
+
+Determining diferences
+
+Found dates : 2019-09-06,2019-09-07
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-09-08 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-09-11 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-09-08 23:03:39 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-09-09 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-09-11 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-09-09 23:03:29 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-09-10 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-09-11 
+
+Determining diferences
+
+Found dates : 2019-09-09
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-09-11 23:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-09-11 
+
+Determining diferences
+
+Found dates : 2019-09-10
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Only last date is not updated. (which is ok)
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-09-12 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-09-11 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-09-12 23:03:51 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-09-13 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-09-13 
+
+Determining diferences
+
+Found dates : 2019-09-11,2019-09-12
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-09-14 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking RTGS Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-09-13 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-09-14 23:03:43 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-09-15 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-09-16 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-09-17 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-09-18 23:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_RTGS.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted

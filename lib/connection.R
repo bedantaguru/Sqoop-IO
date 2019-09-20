@@ -62,7 +62,7 @@ jdbc_connection_manager <- function(config){
   
   # create connection
   
-  connect <- function(){
+  connect <- function(verbose = F){
     try({
       driver_object <<- JDBC(driverClass = drv_class, classPath = drv_classPath)
       
@@ -78,7 +78,7 @@ jdbc_connection_manager <- function(config){
         }
       }
       
-    }, silent = T)
+    }, silent = !verbose)
   }
   
   # this is for user and above may be required by other sub-functions
@@ -100,21 +100,24 @@ jdbc_connection_manager <- function(config){
     
     wait_for_external_R()
     
-    put_in_external_R(List = c("sql","is_DDL"), env = environment())
-
+    current_db_set_qry <- paste0("use ", direct_query("select current_database()")[[1]])
+    put_in_external_R(List = c("sql","is_DDL", "current_db_set_qry"), env = environment())
+    
+    
     put_in_external_R(List = c("drv_class", "drv_classPath","jdbc_url","credentials","connect","direct_query","connection_object","driver_object"), env = environment(connect))
     
     h <- run_in_external_R("
-      require(RJDBC)
-      require(stringr)
-      connection_object <- NULL
-      connect()
-      direct_query(sql, is_DDL)")
+                           require(RJDBC)
+                           require(stringr)
+                           connection_object <- NULL
+                           connect()
+                           direct_query(current_db_set_qry, is_DDL = T)
+                           direct_query(sql, is_DDL)")
     
     if(return_hook){
       return(h)
     }
-
+    
     h$wait_for_output(wait_secs = wait_secs)
   }
   
@@ -148,10 +151,10 @@ jdbc_connection_manager <- function(config){
     
     manager$reconnect <- reconnect
     
-    manager$query <- function(sql, is_DDL = F, external = F, wait_secs = 1*60){
+    manager$query <- function(sql, is_DDL = F, external = F, wait_secs = 1*60, ...){
       
       if(external){
-        try(external_query(sql = sql, is_DDL = is_DDL, wait_secs = wait_secs),silent = T)
+        try(external_query(sql = sql, is_DDL = is_DDL, wait_secs = wait_secs, ...),silent = T)
       }else{
         reconnect()
         direct_query(sql = sql, is_DDL = is_DDL)

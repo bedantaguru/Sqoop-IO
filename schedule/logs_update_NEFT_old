@@ -1,0 +1,1997 @@
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-09-28 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-09-24 
+
+Determining diferences
+
+Found dates : 2018-09-21
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-09-28 19:07:59 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-09-29 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-09-26 
+
+Determining diferences
+
+Found dates : 2018-09-24,2018-09-25
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-09-29 19:10:16 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-09-30 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-09-26 
+
+Determining diferences
+
+Found dates : 2018-09-25
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-09-30 19:08:54 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-10-01 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-09-26 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2018-10-01 19:03:36 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-10-02 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-09-28 
+
+Determining diferences
+
+Found dates : 2018-09-26,2018-09-27
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-10-02 19:09:45 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-10-03 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-09-28 
+
+Determining diferences
+
+Found dates : 2018-09-27
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-10-03 19:10:12 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-10-04 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-09-29 
+
+Determining diferences
+
+Found dates : 2018-09-28
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-10-04 19:10:32 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-10-05 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-09-29 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2018-10-05 19:04:05 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-10-06 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-10-03 
+
+Determining diferences
+
+Found dates : 2018-09-29,2018-10-01
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-10-06 19:10:04 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-10-07 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-10-03 
+
+Determining diferences
+
+Found dates : 2018-10-01
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-10-07 19:13:42 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-10-08 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-10-03 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2018-10-08 19:03:39 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-10-09 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-10-05 
+
+Determining diferences
+
+Found dates : 2018-10-03,2018-10-04
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-10-09 19:12:05 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-10-10 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-10-05 
+
+Determining diferences
+
+Found dates : 2018-10-04
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-10-10 19:09:51 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-10-11 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-10-08 
+
+Determining diferences
+
+Found dates : 2018-10-05,2018-10-06
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-10-11 19:10:18 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-10-12 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-10-08 
+
+Determining diferences
+
+Found dates : 2018-10-06
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-10-12 19:11:19 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-10-13 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-10-08 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2018-10-13 19:05:11 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-10-14 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-10-08 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2018-10-14 19:03:30 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-10-15 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-10-10 
+
+Determining diferences
+
+Found dates : 2018-10-08,2018-10-09
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-10-15 19:10:25 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-10-16 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-10-11 
+
+Determining diferences
+
+Found dates : 2018-10-09,2018-10-10
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-10-16 19:10:04 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-10-17 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-10-11 
+
+Determining diferences
+
+Found dates : 2018-10-10
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-10-17 19:10:13 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-10-18 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-10-15 
+
+Determining diferences
+
+Found dates : 2018-10-11,2018-10-12
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-10-18 19:09:33 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-10-19 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-10-15 
+
+Determining diferences
+
+Found dates : 2018-10-12
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-10-19 19:12:52 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-10-20 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-10-17 
+
+Determining diferences
+
+Found dates : 2018-10-15,2018-10-16
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-10-20 19:11:08 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-10-21 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-10-17 
+
+Determining diferences
+
+Found dates : 2018-10-16
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-10-21 19:09:45 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-10-22 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-10-17 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2018-10-22 19:03:06 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-10-23 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-10-19 
+
+Determining diferences
+
+Found dates : 2018-10-17,2018-10-18
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-10-23 19:08:55 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-10-24 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-10-19 
+
+Determining diferences
+
+Found dates : 2018-10-18
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-10-24 19:07:40 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-10-25 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-10-22 
+
+Determining diferences
+
+Found dates : 2018-10-19,2018-10-20
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-10-25 19:08:16 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-10-26 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-10-22 
+
+Determining diferences
+
+Found dates : 2018-10-20
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-10-26 19:07:58 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-10-27 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-10-24 
+
+Determining diferences
+
+Found dates : 2018-10-22,2018-10-23
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-10-27 19:09:01 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-11-20 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-11-16 
+
+Determining diferences
+
+Found dates : 2018-11-15
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-11-20 19:10:14 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-11-21 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-11-16 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2018-11-21 19:04:16 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-11-22 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-11-19 
+
+Determining diferences
+
+Found dates : 2018-11-16,2018-11-17
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-11-22 19:10:49 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-11-23 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-11-19 
+
+Determining diferences
+
+Found dates : 2018-11-17
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-11-23 19:09:24 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-11-24 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-11-21 
+
+Determining diferences
+
+Found dates : 2018-11-19,2018-11-20
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-11-24 19:10:12 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-11-25 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-11-21 
+
+Determining diferences
+
+Found dates : 2018-11-20
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-11-25 19:09:22 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-11-26 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-11-21 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2018-11-26 19:04:24 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-11-27 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-11-22 
+
+Determining diferences
+
+Found dates : 2018-11-21
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-11-27 19:09:34 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-11-28 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-11-22 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2018-11-28 19:04:00 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-11-29 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-11-26 
+
+Determining diferences
+
+Found 136 many dates
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 17 . Rest number of jobs:17
+
+Using RUN
+
+Submitting new Sqoop job 2th of 17 . Rest number of jobs:16
+
+Using RUN
+
+Submitting new Sqoop job 3th of 17 . Rest number of jobs:15
+
+Using RUN
+
+Submitting new Sqoop job 4th of 17 . Rest number of jobs:14
+
+Using RUN
+
+Submitting new Sqoop job 5th of 17 . Rest number of jobs:13
+
+Using RUN
+
+Submitting new Sqoop job 6th of 17 . Rest number of jobs:12
+
+Using RUN
+
+Submitting new Sqoop job 7th of 17 . Rest number of jobs:11
+
+Using RUN
+
+Submitting new Sqoop job 8th of 17 . Rest number of jobs:10
+
+Using RUN
+
+Submitting new Sqoop job 9th of 17 . Rest number of jobs:9
+
+Using RUN
+
+Submitting new Sqoop job 10th of 17 . Rest number of jobs:8
+
+Using RUN
+
+Submitting new Sqoop job 11th of 17 . Rest number of jobs:7
+
+Using RUN
+
+Submitting new Sqoop job 12th of 17 . Rest number of jobs:6
+Password for hive@MYREALM.COM: 
+
+Using RUN
+
+Submitting new Sqoop job 13th of 17 . Rest number of jobs:5
+
+Using RUN
+
+Submitting new Sqoop job 14th of 17 . Rest number of jobs:4
+
+Using RUN
+
+Submitting new Sqoop job 15th of 17 . Rest number of jobs:3
+
+Using RUN
+
+Submitting new Sqoop job 16th of 17 . Rest number of jobs:2
+
+Using RUN
+
+Submitting new Sqoop job 17th of 17 . Rest number of jobs:1
+
+Using NEXT PHASE
+
+Doing rest part of the plan.
+
+Using CLEAN UP
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-11-30 03:02:11 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-11-30 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-11-26 
+
+Determining diferences
+
+Found 136 many dates
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 17 . Rest number of jobs:17
+
+Using RUN
+
+Submitting new Sqoop job 2th of 17 . Rest number of jobs:16
+
+Using RUN
+
+Submitting new Sqoop job 3th of 17 . Rest number of jobs:15
+
+Using RUN
+
+Submitting new Sqoop job 4th of 17 . Rest number of jobs:14
+
+Using RUN
+
+Submitting new Sqoop job 5th of 17 . Rest number of jobs:13
+
+Using RUN
+
+Submitting new Sqoop job 6th of 17 . Rest number of jobs:12
+
+Using RUN
+
+Submitting new Sqoop job 7th of 17 . Rest number of jobs:11
+
+Using RUN
+
+Submitting new Sqoop job 8th of 17 . Rest number of jobs:10
+
+Using RUN
+
+Submitting new Sqoop job 9th of 17 . Rest number of jobs:9
+
+Using RUN
+
+Submitting new Sqoop job 10th of 17 . Rest number of jobs:8
+
+Using RUN
+
+Submitting new Sqoop job 11th of 17 . Rest number of jobs:7
+
+Using RUN
+
+Submitting new Sqoop job 12th of 17 . Rest number of jobs:6
+Password for hive@MYREALM.COM: 
+
+Using RUN
+
+Submitting new Sqoop job 13th of 17 . Rest number of jobs:5
+
+Using RUN
+
+Submitting new Sqoop job 14th of 17 . Rest number of jobs:4
+
+Using RUN
+
+Submitting new Sqoop job 15th of 17 . Rest number of jobs:3
+
+Using RUN
+
+Submitting new Sqoop job 16th of 17 . Rest number of jobs:2
+
+Using RUN
+
+Submitting new Sqoop job 17th of 17 . Rest number of jobs:1
+
+Using NEXT PHASE
+
+Doing rest part of the plan.
+
+Using CLEAN UP
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-12-01 02:35:23 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-12-01 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-11-28 
+
+Determining diferences
+
+Found 138 many dates
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 17 . Rest number of jobs:17
+
+Using RUN
+
+Submitting new Sqoop job 2th of 17 . Rest number of jobs:16
+
+Using RUN
+
+Submitting new Sqoop job 3th of 17 . Rest number of jobs:15
+
+Using RUN
+
+Submitting new Sqoop job 4th of 17 . Rest number of jobs:14
+
+Using RUN
+
+Submitting new Sqoop job 5th of 17 . Rest number of jobs:13
+
+Using RUN
+
+Submitting new Sqoop job 6th of 17 . Rest number of jobs:12
+
+Using RUN
+
+Submitting new Sqoop job 7th of 17 . Rest number of jobs:11
+
+Using RUN
+
+Submitting new Sqoop job 8th of 17 . Rest number of jobs:10
+
+Using RUN
+
+Submitting new Sqoop job 9th of 17 . Rest number of jobs:9
+
+Using RUN
+
+Submitting new Sqoop job 10th of 17 . Rest number of jobs:8
+
+Using RUN
+
+Submitting new Sqoop job 11th of 17 . Rest number of jobs:7
+
+Using RUN
+
+Submitting new Sqoop job 12th of 17 . Rest number of jobs:6
+Password for hive@MYREALM.COM: 
+
+Using RUN
+
+Submitting new Sqoop job 13th of 17 . Rest number of jobs:5
+
+Using RUN
+
+Submitting new Sqoop job 14th of 17 . Rest number of jobs:4
+
+Using RUN
+
+Submitting new Sqoop job 15th of 17 . Rest number of jobs:3
+
+Using RUN
+
+Submitting new Sqoop job 16th of 17 . Rest number of jobs:2
+
+Using RUN
+
+Submitting new Sqoop job 17th of 17 . Rest number of jobs:1
+
+Using NEXT PHASE
+
+Doing rest part of the plan.
+
+Using CLEAN UP
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-12-02 02:51:57 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-12-02 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-11-28 
+
+Determining diferences
+
+Found 138 many dates
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 17 . Rest number of jobs:17
+
+Using RUN
+
+Submitting new Sqoop job 2th of 17 . Rest number of jobs:16
+
+Using RUN
+
+Submitting new Sqoop job 3th of 17 . Rest number of jobs:15
+
+Using RUN
+
+Submitting new Sqoop job 4th of 17 . Rest number of jobs:14
+
+Using RUN
+
+Submitting new Sqoop job 5th of 17 . Rest number of jobs:13
+
+Using RUN
+
+Submitting new Sqoop job 6th of 17 . Rest number of jobs:12
+
+Using RUN
+
+Submitting new Sqoop job 7th of 17 . Rest number of jobs:11
+
+Using RUN
+
+Submitting new Sqoop job 8th of 17 . Rest number of jobs:10
+
+Using RUN
+
+Submitting new Sqoop job 9th of 17 . Rest number of jobs:9
+
+Using RUN
+
+Submitting new Sqoop job 10th of 17 . Rest number of jobs:8
+
+Using RUN
+
+Submitting new Sqoop job 11th of 17 . Rest number of jobs:7
+
+Using RUN
+
+Submitting new Sqoop job 12th of 17 . Rest number of jobs:6
+Password for hive@MYREALM.COM: 
+
+Using RUN
+
+Submitting new Sqoop job 13th of 17 . Rest number of jobs:5
+
+Using RUN
+
+Submitting new Sqoop job 14th of 17 . Rest number of jobs:4
+
+Using RUN
+
+Submitting new Sqoop job 15th of 17 . Rest number of jobs:3
+
+Using RUN
+
+Submitting new Sqoop job 16th of 17 . Rest number of jobs:2
+
+Using RUN
+
+Submitting new Sqoop job 17th of 17 . Rest number of jobs:1
+
+Using NEXT PHASE
+
+Doing rest part of the plan.
+
+Using CLEAN UP
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-12-03 02:50:18 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-12-04 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-11-30 
+
+Determining diferences
+
+Found dates : 2018-11-27,2018-11-28,2018-11-29
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-12-04 19:12:27 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-12-05 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-11-30 
+
+Determining diferences
+
+Found dates : 2018-11-28,2018-11-29
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-12-05 19:13:37 
+Loading required package: stringr
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2018-12-06 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Password for hive@MYREALM.COM: 
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2018-12-01 
+
+Determining diferences
+
+Found dates : 2018-11-29,2018-11-30
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/eplan/.', probable reason 'Is a directory'
+
+ End time : 2018-12-06 19:13:18 

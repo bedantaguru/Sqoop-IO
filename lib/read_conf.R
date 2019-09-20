@@ -143,7 +143,7 @@ get_param <- function(what){
   return(info)
 }
 
-load_backend_config <- function(){
+load_backend_config <- function(src_db){
   
   conf <- get_config()
   
@@ -207,7 +207,12 @@ load_backend_config <- function(){
   if(info$rdb_backend$validated){
     # set a default hdfs backend
     
-    selected_rdb <- available_prototype_for_rdb[1,]
+    if(!missing(src_db)){
+      selected_rdb <- available_prototype_for_rdb[src_db,]
+    }else{
+      selected_rdb <- available_prototype_for_rdb[1,]
+    }
+    
     
     info$rdb_backend <- c(info$rdb_backend,
                           merge_config(conf$rdb_source[[selected_rdb$name]], info$available_prototype_rdb[[selected_rdb$db_src]]))

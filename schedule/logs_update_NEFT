@@ -1,0 +1,6785 @@
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-02-13 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-02-07 
+
+Determining diferences
+
+Found dates : 2016-01-19,2019-01-23,2019-01-24,2019-01-25,2019-01-28,2019-01-29,2019-01-30,2019-01-31,2019-02-01,2019-02-02,2019-02-04,2019-02-05,2019-02-06
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 2 . Rest number of jobs:2
+
+Using RUN
+
+Submitting new Sqoop job 2th of 2 . Rest number of jobs:1
+19/02/14 18:59:01 ERROR security.UserGroupInformation: TGT is expired. Aborting renew thread for hive@MYREALM.COM.
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-02-14 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-02-11 
+
+Determining diferences
+common_incoming:
+ [1] "2019-01-23" "2019-01-24" "2019-01-25" "2019-01-28" "2019-01-29"
+ [6] "2019-01-30" "2019-01-31" "2019-02-01" "2019-02-02" "2019-02-04"
+[11] "2019-02-05" "2019-02-06"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-02-15 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-02-11 
+
+Determining diferences
+common_incoming:
+ [1] "2019-01-23" "2019-01-24" "2019-01-25" "2019-01-28" "2019-01-29"
+ [6] "2019-01-30" "2019-01-31" "2019-02-01" "2019-02-02" "2019-02-04"
+[11] "2019-02-05" "2019-02-06"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-02-16 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-02-13 
+
+Determining diferences
+common_incoming:
+ [1] "2019-01-23" "2019-01-24" "2019-01-25" "2019-01-28" "2019-01-29"
+ [6] "2019-01-30" "2019-01-31" "2019-02-01" "2019-02-02" "2019-02-04"
+[11] "2019-02-05" "2019-02-06"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-02-17 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-02-13 
+
+Determining diferences
+common_incoming:
+ [1] "2019-01-23" "2019-01-24" "2019-01-25" "2019-01-28" "2019-01-29"
+ [6] "2019-01-30" "2019-01-31" "2019-02-01" "2019-02-02" "2019-02-04"
+[11] "2019-02-05" "2019-02-06"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-02-18 11:00:56 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-02-13 
+
+Determining diferences
+common_incoming:
+ [1] "2019-01-23" "2019-01-24" "2019-01-25" "2019-01-28" "2019-01-29"
+ [6] "2019-01-30" "2019-01-31" "2019-02-01" "2019-02-02" "2019-02-04"
+[11] "2019-02-05" "2019-02-06"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-02-18 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-02-13 
+
+Determining diferences
+common_incoming:
+ [1] "2019-01-23" "2019-01-24" "2019-01-25" "2019-01-28" "2019-01-29"
+ [6] "2019-01-30" "2019-01-31" "2019-02-01" "2019-02-02" "2019-02-04"
+[11] "2019-02-05" "2019-02-06"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-02-19 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-02-15 
+
+Determining diferences
+common_incoming:
+ [1] "2019-01-23" "2019-01-24" "2019-01-25" "2019-01-28" "2019-01-29"
+ [6] "2019-01-30" "2019-01-31" "2019-02-01" "2019-02-02" "2019-02-04"
+[11] "2019-02-05" "2019-02-06"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-02-20 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-02-15 
+
+Determining diferences
+common_incoming:
+ [1] "2019-01-23" "2019-01-24" "2019-01-25" "2019-01-28" "2019-01-29"
+ [6] "2019-01-30" "2019-01-31" "2019-02-01" "2019-02-02" "2019-02-04"
+[11] "2019-02-05" "2019-02-06"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-02-21 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-02-15 
+
+Determining diferences
+common_incoming:
+ [1] "2019-01-23" "2019-01-24" "2019-01-25" "2019-01-28" "2019-01-29"
+ [6] "2019-01-30" "2019-01-31" "2019-02-01" "2019-02-02" "2019-02-04"
+[11] "2019-02-05" "2019-02-06"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-02-22 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-02-15 
+
+Determining diferences
+common_incoming:
+ [1] "2019-01-23" "2019-01-24" "2019-01-25" "2019-01-28" "2019-01-29"
+ [6] "2019-01-30" "2019-01-31" "2019-02-01" "2019-02-02" "2019-02-04"
+[11] "2019-02-05" "2019-02-06"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-02-23 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-02-15 
+
+Determining diferences
+common_incoming:
+ [1] "2019-01-23" "2019-01-24" "2019-01-25" "2019-01-28" "2019-01-29"
+ [6] "2019-01-30" "2019-01-31" "2019-02-01" "2019-02-02" "2019-02-04"
+[11] "2019-02-05" "2019-02-06"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-02-24 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-02-15 
+
+Determining diferences
+common_incoming:
+ [1] "2019-01-23" "2019-01-24" "2019-01-25" "2019-01-28" "2019-01-29"
+ [6] "2019-01-30" "2019-01-31" "2019-02-01" "2019-02-02" "2019-02-04"
+[11] "2019-02-05" "2019-02-06"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-02-25 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-02-20 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-02-25 19:03:33 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-02-26 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-02-22 
+
+Determining diferences
+
+Found dates : 2019-02-20,2019-02-21
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-02-26 19:09:08 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-02-27 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-02-22 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-02-27 19:03:32 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-02-28 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-02-25 
+
+Determining diferences
+
+Found dates : 2019-02-22,2019-02-23
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-02-28 19:09:52 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-01 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-02-25 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-03-01 19:03:45 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-02 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: ORA-01033: ORACLE initialization or shutdown in progress
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-03 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-02-27 
+
+Determining diferences
+
+Found dates : 2019-02-25,2019-02-26
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-03-03 19:10:15 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-04 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-02-27 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-03-04 19:03:51 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-05 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-01 
+
+Determining diferences
+
+Found dates : 2019-02-27,2019-02-28
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-03-05 19:10:16 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-06 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-01 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-03-06 19:04:12 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-07 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-04 
+
+Determining diferences
+
+Found dates : 2019-03-01,2019-03-02
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-03-07 19:12:33 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-08 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+Error in charToDate(x) : 
+  character string is not in a standard unambiguous format
+Calls: source ... eval -> cat -> as.Date -> as.Date.character -> charToDate
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-09 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-04 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-03-09 19:13:35 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-10 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-04 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-03-10 19:12:40 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-11 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+Error in charToDate(x) : 
+  character string is not in a standard unambiguous format
+Calls: source ... eval -> cat -> as.Date -> as.Date.character -> charToDate
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-12 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-04 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-03-12 19:08:19 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-13 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-07 
+
+Determining diferences
+
+Found dates : 2019-03-04,2019-03-05,2019-03-06
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-03-13 21:02:28 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-14 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-11 
+
+Determining diferences
+
+Found dates : 2019-03-07,2019-03-08
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Using NEXT PHASE
+
+Doing rest part of the plan.
+
+Using CLEAN UP
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+In addition: Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/imported_eplan/2019_03_14_time_20_00_17_proc_11259', probable reason 'No such file or directory'
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-15 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-11 
+
+Determining diferences
+common_incoming:
+[1] "2019-03-07" "2019-03-08"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-16 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-13 
+
+Determining diferences
+common_incoming:
+[1] "2019-03-07" "2019-03-08"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-17 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-13 
+
+Determining diferences
+common_incoming:
+[1] "2019-03-07" "2019-03-08"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-18 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-13 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-03-18 19:02:49 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-19 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-15 
+
+Determining diferences
+
+Found dates : 2019-03-13,2019-03-14
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-03-19 19:10:43 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-20 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-15 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-03-20 19:02:11 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-21 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-18 
+
+Determining diferences
+
+Found dates : 2019-03-15,2019-03-16
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-03-21 19:10:03 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-22 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-18 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-03-22 19:02:56 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-23 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-20 
+
+Determining diferences
+
+Found dates : 2019-03-18,2019-03-19
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-03-23 19:08:33 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-24 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-20 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-03-24 19:02:29 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-25 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-20 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-03-25 19:02:40 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-26 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-21 
+
+Determining diferences
+
+Found dates : 2019-03-20
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-03-26 19:07:34 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-27 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-21 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-03-27 19:02:55 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-28 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-25 
+
+Determining diferences
+
+Found dates : 2019-03-21,2019-03-22
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-03-28 19:08:15 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-29 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-25 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-03-29 19:03:02 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-30 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-27 
+
+Determining diferences
+
+Found dates : 2019-03-25,2019-03-26
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+19/03/31 18:59:01 ERROR security.UserGroupInformation: TGT is expired. Aborting renew thread for hive@MYREALM.COM.
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-03-31 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-28 
+
+Determining diferences
+common_incoming:
+[1] "2019-03-25" "2019-03-26"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-01 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-29 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-04-01 19:02:51 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-02 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-29 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-04-02 19:03:16 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-03 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-29 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-04-03 19:03:13 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-04 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-31 
+
+Determining diferences
+
+Found dates : 2019-03-29,2019-03-30
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-04-04 19:10:12 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-05 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-03-31 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-04-05 19:03:33 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-06 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-04-03 
+
+Determining diferences
+
+Found dates : 2019-03-31,2019-04-02
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-04-06 19:11:44 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-07 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-04-03 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-04-07 19:03:29 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-08 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-04-03 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-04-08 19:03:20 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-09 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-04-05 
+
+Determining diferences
+
+Found dates : 2019-04-03,2019-04-04
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-04-09 19:09:52 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-10 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-04-05 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-04-10 19:03:09 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-11 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-04-06 
+
+Determining diferences
+
+Found dates : 2019-04-05
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-04-11 19:09:58 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-12 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-04-06 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-04-12 19:03:30 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-13 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-14 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-04-10 
+
+Determining diferences
+
+Found dates : 2019-04-06,2019-04-08,2019-04-09
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-04-14 19:11:11 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-15 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-04-10 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-04-15 19:03:23 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-16 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-04-11 
+
+Determining diferences
+
+Found dates : 2019-04-10
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-04-16 19:08:07 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-17 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-04-11 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-04-17 19:03:21 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-18 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-04-15 
+
+Determining diferences
+
+Found dates : 2019-04-11,2019-04-12
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-19 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-04-15 
+
+Determining diferences
+common_incoming:
+[1] "2019-04-11" "2019-04-12"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-20 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-04-15 
+
+Determining diferences
+common_incoming:
+[1] "2019-04-11" "2019-04-12"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-21 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-04-17 
+
+Determining diferences
+common_incoming:
+[1] "2019-04-11" "2019-04-12"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-22 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-04-17 
+
+Determining diferences
+common_incoming:
+[1] "2019-04-11" "2019-04-12"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-23 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-04-18 
+
+Determining diferences
+common_incoming:
+[1] "2019-04-11" "2019-04-12"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-24 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-04-18 
+
+Determining diferences
+common_incoming:
+[1] "2019-04-11" "2019-04-12"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-25 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-04-22 
+
+Determining diferences
+common_incoming:
+[1] "2019-04-11" "2019-04-12"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-26 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-04-22 
+
+Determining diferences
+common_incoming:
+[1] "2019-04-11" "2019-04-12"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-27 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-04-22 
+
+Determining diferences
+common_incoming:
+[1] "2019-04-11" "2019-04-12"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-28 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-04-22 
+
+Determining diferences
+common_incoming:
+[1] "2019-04-11" "2019-04-12"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-29 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-04-22 
+
+Determining diferences
+common_incoming:
+[1] "2019-04-11" "2019-04-12"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-04-30 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-04-24 
+
+Determining diferences
+common_incoming:
+[1] "2019-04-11" "2019-04-12"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-01 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-04-24 
+
+Determining diferences
+common_incoming:
+[1] "2019-04-11" "2019-04-12"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-02 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-04-29 
+
+Determining diferences
+
+Found dates : 2019-04-25,2019-04-26
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-05-02 19:10:42 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-03 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-04-29 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-05-03 19:04:01 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-04 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-04-30 
+
+Determining diferences
+
+Found dates : 2019-04-29
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-05-04 19:09:00 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-05 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-04-30 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-05-05 19:04:07 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-06 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-04-30 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-05-06 19:04:02 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-07 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-05-03 
+
+Determining diferences
+
+Found dates : 2019-04-30,2019-05-01,2019-05-02
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-05-07 19:12:05 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-08 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-05-03 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-05-08 19:04:09 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-09 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-05-06 
+
+Determining diferences
+
+Found dates : 2019-05-03,2019-05-04
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-05-09 19:10:56 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-10 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-05-06 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-05-10 19:04:16 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-11 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-05-06 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-05-11 19:04:12 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-12 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-05-06 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-05-12 19:03:36 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-13 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-05-06 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-05-13 19:04:11 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-14 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-05-06 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-05-14 19:11:43 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-15 19:00:03 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-05-07 
+
+Determining diferences
+
+Found dates : 2019-05-06
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-05-15 19:11:33 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-16 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-05-13 
+
+Determining diferences
+
+Found dates : 2019-05-07,2019-05-08,2019-05-09,2019-05-10
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+19/05/17 18:59:01 ERROR security.UserGroupInformation: TGT is expired. Aborting renew thread for hive@MYREALM.COM.
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-17 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-05-13 
+
+Determining diferences
+common_incoming:
+[1] "2019-05-07" "2019-05-08" "2019-05-09" "2019-05-10"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-18 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-05-15 
+
+Determining diferences
+common_incoming:
+[1] "2019-05-07" "2019-05-08" "2019-05-09" "2019-05-10"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-19 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-05-15 
+
+Determining diferences
+common_incoming:
+[1] "2019-05-07" "2019-05-08" "2019-05-09" "2019-05-10"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-20 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-05-15 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-05-20 19:02:55 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-21 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-05-17 
+
+Determining diferences
+
+Found dates : 2019-05-15,2019-05-16
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-05-21 19:10:10 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-22 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-05-17 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-05-22 19:03:18 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-23 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-05-20 
+
+Determining diferences
+
+Found dates : 2019-05-17,2019-05-18
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-05-23 19:09:02 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-24 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-05-20 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-05-24 19:03:16 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-25 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-05-22 
+
+Determining diferences
+
+Found dates : 2019-05-20,2019-05-21
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-05-25 19:09:13 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-26 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-05-22 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-05-26 19:03:21 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-27 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-05-22 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-05-27 19:02:52 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-28 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-05-23 
+
+Determining diferences
+
+Found dates : 2019-05-22
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-05-28 19:07:28 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-29 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-05-23 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-05-29 19:02:50 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-30 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-05-27 
+
+Determining diferences
+
+Found dates : 2019-05-23,2019-05-24
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-05-30 19:08:53 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-05-31 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-05-27 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-05-31 19:03:39 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-01 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLRecoverableException: ORA-01033: ORACLE initialization or shutdown in progress
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-02 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-05-29 
+
+Determining diferences
+
+Found dates : 2019-05-27,2019-05-28
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-06-02 19:10:18 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-03 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-05-29 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-06-03 19:03:42 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-04 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-05-31 
+
+Determining diferences
+
+Found dates : 2019-05-29,2019-05-30
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-06-04 19:10:46 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-05 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-05-31 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-06-05 19:03:31 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-06 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-05-31 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-06-06 19:03:34 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-07 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-01 
+
+Determining diferences
+
+Found dates : 2019-05-31
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+19/06/08 18:59:01 ERROR security.UserGroupInformation: TGT is expired. Aborting renew thread for hive@MYREALM.COM.
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-08 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-04 
+
+Determining diferences
+common_incoming:
+[1] "2019-05-31"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-09 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-04 
+
+Determining diferences
+common_incoming:
+[1] "2019-05-31"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-10 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-04 
+
+Determining diferences
+common_incoming:
+[1] "2019-05-31"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-11 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-06 
+
+Determining diferences
+
+Found dates : 2018-01-01,2018-01-02,2018-01-12,2018-01-15,2018-01-16,2018-01-17,2018-01-18,2018-01-19,2018-01-20,2018-01-22,2018-01-23,2018-01-24,2018-01-25,2018-01-29,2018-01-30
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 3 . Rest number of jobs:3
+
+Using RUN
+
+Submitting new Sqoop job 2th of 3 . Rest number of jobs:2
+
+Using RUN
+
+Submitting new Sqoop job 3th of 3 . Rest number of jobs:1
+
+Using NEXT PHASE
+
+Doing rest part of the plan.
+
+Using CLEAN UP
+
+Update completed..
+Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file 'store/imported_eplan/2019_06_11_time_19_04_14_proc_16520', probable reason 'No such file or directory'
+
+ End time : 2019-06-11 19:23:01 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-12 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-06 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-06-12 19:03:48 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-13 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-10 
+
+Determining diferences
+
+Found dates : 2019-06-06,2019-06-07
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+19/06/14 18:59:02 ERROR security.UserGroupInformation: TGT is expired. Aborting renew thread for hive@MYREALM.COM.
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-14 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28000: the account is locked
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-15 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-12 
+
+Determining diferences
+common_incoming:
+[1] "2019-06-06" "2019-06-07"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-16 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-12 
+
+Determining diferences
+common_incoming:
+[1] "2019-06-06" "2019-06-07"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-17 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-12 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-06-17 19:03:18 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-18 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-14 
+
+Determining diferences
+
+Found dates : 2019-06-12,2019-06-13
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-06-18 19:08:45 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-19 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-14 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-06-19 19:05:09 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-20 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-17 
+
+Determining diferences
+
+Found dates : 2019-06-14,2019-06-15
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-06-20 19:10:01 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-21 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-17 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-06-21 19:05:09 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-22 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-17 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-06-22 19:04:27 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-23 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-17 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-06-23 19:03:58 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-24 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-19 
+
+Determining diferences
+
+Found dates : 2019-06-17,2019-06-18
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+Error in eval(expr, envir, enclos) : 
+  Something is not right!! as not_done_dates have more days or done_dates is empty.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-25 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-20 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-06-25 19:04:15 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-26 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-20 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-06-26 19:03:39 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-27 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-24 
+
+Determining diferences
+
+Found dates : 2019-06-20,2019-06-21
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+19/06/28 18:59:01 ERROR security.UserGroupInformation: TGT is expired. Aborting renew thread for hive@MYREALM.COM.
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-28 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-24 
+
+Determining diferences
+common_incoming:
+[1] "2019-06-20" "2019-06-21"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-29 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-25 
+
+Determining diferences
+common_incoming:
+[1] "2019-06-20" "2019-06-21"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-06-30 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-26 
+
+Determining diferences
+common_incoming:
+[1] "2019-06-20" "2019-06-21"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-01 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-26 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-07-01 19:03:59 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-02 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-28 
+
+Determining diferences
+
+Found dates : 2019-06-26,2019-06-27
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-07-02 19:10:20 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-03 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-06-28 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-07-03 19:04:16 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-04 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28001: the password has expired
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-05 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28001: the password has expired
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-06 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28001: the password has expired
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-07 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28001: the password has expired
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-08 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28001: the password has expired
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-09 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28000: the account is locked
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-10 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28000: the account is locked
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-11 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28000: the account is locked
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-12 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28000: the account is locked
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-13 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28000: the account is locked
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-14 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28000: the account is locked
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-15 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28000: the account is locked
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-16 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28000: the account is locked
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-17 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28000: the account is locked
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-18 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28000: the account is locked
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-19 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28000: the account is locked
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-20 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28000: the account is locked
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-21 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28000: the account is locked
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-22 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28000: the account is locked
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-23 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-01017: invalid username/password; logon denied
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-24 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28000: the account is locked
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-25 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28000: the account is locked
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-26 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28000: the account is locked
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-27 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28000: the account is locked
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-28 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28000: the account is locked
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-29 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28000: the account is locked
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-30 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28000: the account is locked
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-07-31 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28000: the account is locked
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-01 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28000: the account is locked
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-02 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28000: the account is locked
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-03 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28000: the account is locked
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-04 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28000: the account is locked
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-05 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28000: the account is locked
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-06 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28000: the account is locked
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-07 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[1],  : 
+  java.sql.SQLException: ORA-28000: the account is locked
+
+Error in eval(expr, envir, enclos) : 
+  Unable to connect to source database (Oracle)
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-08 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-03 
+
+Determining diferences
+common_incoming:
+ [1] "2019-07-10" "2019-07-11" "2019-07-12" "2019-07-15" "2019-07-16"
+ [6] "2019-07-17" "2019-07-18" "2019-07-19" "2019-07-20" "2019-07-22"
+[11] "2019-07-23" "2019-07-24" "2019-07-25" "2019-07-26" "2019-07-29"
+[16] "2019-07-30" "2019-07-31" "2019-08-01" "2019-08-02"
+Error in eval(expr, envir, enclos) : 
+  Check why common incoming dates are coming.
+Calls: source -> withVisible -> eval -> eval
+Execution halted
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-09 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-03 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-08-09 19:04:41 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-10 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-06 
+
+Determining diferences
+
+Found dates : 2019-08-03,2019-08-05
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-08-10 19:12:31 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-11 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-06 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-08-11 19:04:47 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-12 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-06 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-08-12 19:04:14 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-13 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-06 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-08-13 19:04:48 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-14 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-06 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-08-14 19:04:52 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-15 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-09 
+
+Determining diferences
+
+Found dates : 2019-08-06,2019-08-07,2019-08-08
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-08-15 19:14:53 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-16 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-09 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-08-16 19:05:42 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-17 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-13 
+
+Determining diferences
+
+Found dates : 2019-08-09
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-08-17 19:14:20 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-18 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-07-31 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-08-18 19:03:50 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-19 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-07-31 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-08-19 19:11:20 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-20 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-07-31 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-08-20 19:03:42 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-21 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-16 
+
+Determining diferences
+
+Found dates : 2019-08-13,2019-08-14
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-08-21 19:10:55 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-22 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-19 
+
+Determining diferences
+
+Found dates : 2019-08-16,2019-08-17
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-08-22 19:09:39 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-23 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-19 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-08-23 19:05:11 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-24 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-21 
+
+Determining diferences
+
+Found dates : 2019-08-19,2019-08-20
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-08-24 19:10:16 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-25 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-21 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-08-25 19:04:13 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-26 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-21 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-08-26 19:04:47 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-27 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-22 
+
+Determining diferences
+
+Found dates : 2019-08-21
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-08-27 19:09:33 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-28 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-22 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-08-28 19:04:15 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-29 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-26 
+
+Determining diferences
+
+Found dates : 2019-08-22,2019-08-23
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-08-29 19:11:56 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-30 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-26 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-08-30 19:04:15 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-08-31 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-28 
+
+Determining diferences
+
+Found dates : 2019-08-26,2019-08-27
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-08-31 19:10:43 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-09-01 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-28 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-09-01 19:03:53 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-09-02 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-28 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-09-02 19:03:47 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-09-03 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-30 
+
+Determining diferences
+
+Found dates : 2019-08-28,2019-08-29
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+19/09/04 18:59:01 ERROR security.UserGroupInformation: TGT is expired. Aborting renew thread for hive@MYREALM.COM.
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-09-04 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-08-30 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-09-04 19:04:26 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-09-05 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-09-02 
+
+Determining diferences
+
+Found dates : 2019-08-30,2019-08-31
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-09-05 19:12:55 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-09-06 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-09-02 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-09-06 19:05:08 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-09-07 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-09-04 
+
+Determining diferences
+
+Found dates : 2019-09-02,2019-09-03
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-09-07 19:13:24 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-09-08 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-09-04 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-09-08 19:04:39 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-09-09 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-09-04 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-09-09 19:05:01 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-09-10 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-09-06 
+
+Determining diferences
+
+Found dates : 2019-09-04,2019-09-05
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-09-10 19:10:59 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-09-11 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-09-06 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-09-11 19:04:56 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-09-12 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-09-09 
+
+Determining diferences
+
+Found dates : 2019-09-06,2019-09-07
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-09-12 19:10:24 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-09-13 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-09-09 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-09-13 19:09:41 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-09-14 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-09-09 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-09-14 19:04:23 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-09-15 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-09-09 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-09-15 19:03:56 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-09-16 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-09-11 
+
+Determining diferences
+
+Found dates : 2019-09-09,2019-09-10
+
+Setting is_key_s_fixed to TRUE as a View is opted for port (limited access) 
+
+Submitting new Sqoop job 1th of 1 . Rest number of jobs:1
+
+Update completed..
+
+ End time : 2019-09-16 19:10:19 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-09-17 19:00:01 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-09-12 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-09-17 19:04:14 
+
+
+
+############################################################################################
+
+################################## New Task Start ##########################################
+
+############################################################################################
+
+
+
+ Start time : 2019-09-18 19:00:02 
+
+ Working dir set to : /home/process_control_admin/Project/Sqoop-IO 
+
+ Running now : style_codes/manual_update_NEFT.R 
+Loading required package: magrittr
+
+Taking Hadoop DB Source dates (may take ~1 mins)
+less date in HDB (compared to local track)
+
+Taking NEFT Source dates (may take ~2-3 mins)
+
+Discarding max date: 2019-09-12 
+
+Determining diferences
+
+Table is upto date..
+
+ End time : 2019-09-18 19:04:36 

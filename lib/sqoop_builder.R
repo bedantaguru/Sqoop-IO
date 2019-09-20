@@ -21,8 +21,14 @@ sqoop_builder <- function(sqoop_module = "import", args_info_data){
     sqoop_arg_list[['add_generic_cmd_arg']] <<- cmd
   }
   
-  builder$build_cmd <-function(){
-    paste0(sqoop_code %>% unlist() %>% unique(), collapse = " ")
+  builder$revoke <-function(what){
+    what <- str_replace_all(what,"[^a-zA-Z0-9]","_")
+    sqoop_code[[what]] <<- NULL
+    sqoop_arg_list[[what]] <<- NULL
+  }
+  
+  builder$build_cmd <-function(collapse_char = " "){
+    paste0(sqoop_code %>% unlist() %>% unique(), collapse = collapse_char)
   }
   
   builder$build <-function(){

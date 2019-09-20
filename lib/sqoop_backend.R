@@ -280,26 +280,30 @@ executor_backend <- function(){
       l$mode <- "done"
     }
     
-    active_node_plans <- exe_plan[[l$active_node]]$plan %>% names()
-    
-    if(l$num_rest==1 & !("sqoop" %in% active_node_plans)){
-      l$mode <- "phase"
-      u <-exe_plan %>% lapply("[[", "is_rest_part_done") %>% unlist()
-      if(length(u)){
-        if(all(u)){
-          l$mode <- "clean_up"
-          v <-exe_plan %>% lapply("[[", "clean_up_done") %>% unlist()
-          if(length(v)){
-            if(all(v)){
-              l$is_done <- T
-              l$mode <- "done"
+    if(l$active_node>0){
+      
+      active_node_plans <- exe_plan[[l$active_node]]$plan %>% names()
+      
+      if(l$num_rest==1 & !("sqoop" %in% active_node_plans)){
+        l$mode <- "phase"
+        u <-exe_plan %>% lapply("[[", "is_rest_part_done") %>% unlist()
+        if(length(u)){
+          if(all(u)){
+            l$mode <- "clean_up"
+            v <-exe_plan %>% lapply("[[", "clean_up_done") %>% unlist()
+            if(length(v)){
+              if(all(v)){
+                l$is_done <- T
+                l$mode <- "done"
+              }
             }
           }
         }
+        
+      }else{
+        l$mode <- "run"
       }
       
-    }else{
-      l$mode <- "run"
     }
     
     return(l)
@@ -351,7 +355,7 @@ executor_backend <- function(){
       
       job_done <- F
       ps <- try(process_state(nd$process), silent = T)
-      if(!is.character(ps)){
+      if("try-error" %in% class(ps)){
         ps <- "terminated"
       }
       
@@ -389,7 +393,7 @@ executor_backend <- function(){
     
     exe_plan[[length(exe_plan)]]$sqoop_job_details$additional_info <- procs
     
-    saveRDS(exe_plan, file.path("store/imported_eplan", exe_plan[[1]]$sqoop_job_details$name))
+    try(saveRDS(exe_plan, file.path("store/imported_eplan", exe_plan[[1]]$sqoop_job_details$name)), silent = T)
     
     return(invisible(0))
     
@@ -688,9 +692,15 @@ sqoop_execution_plan <- function(db_name, table_name, where, ...,
         
         
         execution_plan <- list(
-          command = function(){
+          command = function(print = T){
+            
             sqoop_arg_lists()
-            backend$sqoop_builder$build_cmd()
+            
+            if(print){
+              backend$sqoop_builder$build_cmd("\n") %>% cat()
+            }else{
+              backend$sqoop_builder$build_cmd()
+            }
           },
           plan = 
             list(sqoop = function(){
